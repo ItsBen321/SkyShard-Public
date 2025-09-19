@@ -1,0 +1,44 @@
+# Patch 0.8.3
+> The first round of the big system rework! More to follow.
+
+> This patch is probably the biggest one yet, but likely the least noticeable (+33.669 / -31.133 lines of code/changes). I rewrote the whole combat system and created new "handler" scripts that check stuff like unit collision. I also improved the general Unit blueprint and rewrote ALL 111 units, one by one. There is only so much testing I could do by myself, so expect some random bugs I couldn't track down (but also a relatively fast follow-up patch to get rid of them).
+> The next step is more general reworks to the UI, menu screens, the server handling, stat logging.. basically boring stuff. But I can do this in smaller chunks while I work on other features and balance changes. These will also get rid of a bunch of persistent bugs we've struggled with. I tried to get a few balance changes in as well, but I have a lot more cool unit reworks in store :)
+## Features:
+- Stuns now only work on cooldown units (and always try to target cooldown units)
+- Units that summon other units now have a proper collision system (no more units overlapping)
+- Highlights are now more accurate, responsive and work in combat
+- Any damage buffs can no longer target weapons that can't be buffed
+- FPS is now capped. Will be a setting later.
+- New song during gameplay!
+
+## Units:
+- Azurite Crystal's: speed buff is now a % instead of a flat number
+- Eternal Bonfire: now needs 3 adjacent cooldown units to work, speed buff decreased from 5% to 2%
+- Materia Contrarium: is now a passive, Health buff from 100% to 80%
+- Assembolator: cooldown from 0.9s to 1.1s
+- Geronimo's Warehouse: now gives Utility units from tier 2 and below (instead of tier 3)
+- Spellbound Rocket: from 350 Damage to 300
+- Voodoo totem: now only reflects 50% of the Damage back, and has 300 Health instead of 350 (but no longer takes double damage)
+- Casino: now speeds up by 4% instead of 2%
+- Cthulu's Disciple: now gains +2 Damage when ANY units is destroyed
+- Watch Tower: now speeds up units by 10% instead of 0.05s
+- Super Charger: now has a cooldown of 4 seconds instead of 1
+- Soul Slinger: now has +20 Damage and +40 Health for every Ancient unit instead of +10 and +25
+- Mini Black Hole: now has 100 Health instead of 1000
+- NEW UNIT: Scarecrow!
+
+## Bugs:
+- Lots of random small bugs and interactions, including a bunch with Enchantments.
+
+## Other:
+- System reworks:
+  - Combat & Projectile handling is now more modular
+  - Unit blueprint more stable and uniform
+  - Everything follows the same general rules
+  - Storing and Handling of Enchantments
+  - Unit resources are stored in a buffer in memory *(should fix lag spikes when summoning lots of units and keeps memory stable)*
+- Fatigue now scales slower again, but starts with more base Damage
+- You might notice a slight boost in performance already
+- Only cooldown units now count as "Triggers"
+
+> Quick note on what's next: A whole bunch of small features that have been requested! On top of some more necessary code and file changes.
