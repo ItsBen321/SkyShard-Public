@@ -1,0 +1,27 @@
+# Patch 0.10.8
+> Happy holidays!
+
+## Features:
+- In combat, units that give random enchantments (Research Facility, Taron the Enchanter, Post Office) will no longer give Weapon enchantments to non-weapons and cooldown enchantments to non-cooldown units.
+
+## Units:
+- Blighted Ballista: new art!
+- Firestorm Shelter: new art!
+- Atomic Clock: is now a Start of Combat effect (0.2s cooldown increase)
+- Latchwood Spore: now adds 7 lifesteal instead of 10
+- Tesla Coil: no longer gets triple Health gain from lifesteal
+- Big Red Button: now triggers 5 friendly Tinker units instead of 3
+- Compound Knowledge: Cooldown is now 4s instead of 5s
+- Ritualist: Could target non-Weapon units
+
+## Heroes:
+- Ambrose Protectors quest: Now needs 4 Defense units to complete, and rewards 1 Defense unit + 2 Jeffreys (instead of needing 2 Jeffreys and rewarding 1 Defense unit and 1 Jeffrey)
+
+## Bugs:
+- Rating could go below 0 in an edge-case
+- Piranha plant would turn into a machine gun (counting its own lifesteal)
+- Trees would not buff adjacent units after they were changed by Refractor to the Nature faction
+- Ritualist could target non-Weapon units (like Magic Missile Mine)
+
+## Other:
+- Level Up Enchantment now scales infinitely instead of 10 times max, but gives 0.5 Damage on trigger instead of 1
