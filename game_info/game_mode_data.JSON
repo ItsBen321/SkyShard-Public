@@ -1,0 +1,1550 @@
+[
+	[
+		{
+			"hint": "res://components/resources/game_data.gd",
+			"value": null,
+			"var": "game_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Ranked",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "*.gd",
+			"value": "uid://gf7gcu8mytos",
+			"var": "CustomScript",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "CodeScript",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Code",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "stats",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 200,
+			"var": "HitPoints",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "Wins",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 8,
+			"var": "Mana",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": {
+
+			},
+			"var": "StartingUnits",
+			"var_type": "Dictionary"
+		},
+		{
+			"hint": "24/17:Resource",
+			"value": [],
+			"var": "StartingInventory",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "StartRound",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 16,
+			"var": "TotalRounds",
+			"var_type": "int"
+		},
+		{
+			"hint": "Hero",
+			"value": null,
+			"var": "DefaultHero",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Quest",
+			"value": null,
+			"var": "DefaultQuest",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "special",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "",
+			"var": "SavePathExtra",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "tilemaplayer",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "UNIT_LAYER",
+			"var_type": "Nil"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/game_data.gd",
+			"value": null,
+			"var": "game_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Unrated",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "*.gd",
+			"value": "uid://1ujli5evhddh",
+			"var": "CustomScript",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "CodeScript",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Code",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "stats",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 200,
+			"var": "HitPoints",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "Wins",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 8,
+			"var": "Mana",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": {
+
+			},
+			"var": "StartingUnits",
+			"var_type": "Dictionary"
+		},
+		{
+			"hint": "24/17:Resource",
+			"value": [],
+			"var": "StartingInventory",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "StartRound",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 16,
+			"var": "TotalRounds",
+			"var_type": "int"
+		},
+		{
+			"hint": "Hero",
+			"value": null,
+			"var": "DefaultHero",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Quest",
+			"value": null,
+			"var": "DefaultQuest",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "special",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "unrated",
+			"var": "SavePathExtra",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "tilemaplayer",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "UNIT_LAYER",
+			"var_type": "Nil"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/game_data.gd",
+			"value": null,
+			"var": "game_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 2,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Solo",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "*.gd",
+			"value": "uid://cnohpua5fjl8x",
+			"var": "CustomScript",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "CodeScript",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Code",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "stats",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 200,
+			"var": "HitPoints",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "Wins",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 8,
+			"var": "Mana",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": {
+
+			},
+			"var": "StartingUnits",
+			"var_type": "Dictionary"
+		},
+		{
+			"hint": "24/17:Resource",
+			"value": [],
+			"var": "StartingInventory",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "StartRound",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 16,
+			"var": "TotalRounds",
+			"var_type": "int"
+		},
+		{
+			"hint": "Hero",
+			"value": null,
+			"var": "DefaultHero",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Quest",
+			"value": null,
+			"var": "DefaultQuest",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "special",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "solo",
+			"var": "SavePathExtra",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "tilemaplayer",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "UNIT_LAYER",
+			"var_type": "Nil"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/game_data.gd",
+			"value": null,
+			"var": "game_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 3,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Pacifist",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "*.gd",
+			"value": "uid://b0uwh5h2d2bgb",
+			"var": "CustomScript",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "CodeScript",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Code",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "stats",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 200,
+			"var": "HitPoints",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "Wins",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 8,
+			"var": "Mana",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": {
+
+			},
+			"var": "StartingUnits",
+			"var_type": "Dictionary"
+		},
+		{
+			"hint": "24/17:Resource",
+			"value": [],
+			"var": "StartingInventory",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "StartRound",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 16,
+			"var": "TotalRounds",
+			"var_type": "int"
+		},
+		{
+			"hint": "Hero",
+			"value": null,
+			"var": "DefaultHero",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Quest",
+			"value": null,
+			"var": "DefaultQuest",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "special",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Pacifist",
+			"var": "SavePathExtra",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "tilemaplayer",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "UNIT_LAYER",
+			"var_type": "Nil"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/game_data.gd",
+			"value": null,
+			"var": "game_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 4,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "King",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "*.gd",
+			"value": "uid://dnk5lpn8l3pfq",
+			"var": "CustomScript",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "CodeScript",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Code",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "stats",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "HitPoints",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "Wins",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 10,
+			"var": "Mana",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": {
+
+			},
+			"var": "StartingUnits",
+			"var_type": "Dictionary"
+		},
+		{
+			"hint": "24/17:Resource",
+			"value": [],
+			"var": "StartingInventory",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "StartRound",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 10,
+			"var": "TotalRounds",
+			"var_type": "int"
+		},
+		{
+			"hint": "Hero",
+			"value": null,
+			"var": "DefaultHero",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Quest",
+			"value": null,
+			"var": "DefaultQuest",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "special",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "King",
+			"var": "SavePathExtra",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "tilemaplayer",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "UNIT_LAYER",
+			"var_type": "Nil"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/game_data.gd",
+			"value": null,
+			"var": "game_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 5,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Tiny",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "*.gd",
+			"value": "uid://c4glgflm05aym",
+			"var": "CustomScript",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "CodeScript",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Code",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "stats",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 100,
+			"var": "HitPoints",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "Wins",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 4,
+			"var": "Mana",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": {
+
+			},
+			"var": "StartingUnits",
+			"var_type": "Dictionary"
+		},
+		{
+			"hint": "24/17:Resource",
+			"value": [],
+			"var": "StartingInventory",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "StartRound",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 16,
+			"var": "TotalRounds",
+			"var_type": "int"
+		},
+		{
+			"hint": "Hero",
+			"value": null,
+			"var": "DefaultHero",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Quest",
+			"value": null,
+			"var": "DefaultQuest",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "special",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Tiny",
+			"var": "SavePathExtra",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "uid://h0npa3tdeil7",
+			"var": "tilemaplayer",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "UNIT_LAYER",
+			"var_type": "Nil"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/game_data.gd",
+			"value": null,
+			"var": "game_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 6,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Novus Tutorial",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "*.gd",
+			"value": "uid://bo0vp8iycgrcg",
+			"var": "CustomScript",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "CodeScript",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Code",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "stats",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 100,
+			"var": "HitPoints",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "Wins",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 12,
+			"var": "Mana",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": {
+
+			},
+			"var": "StartingUnits",
+			"var_type": "Dictionary"
+		},
+		{
+			"hint": "24/17:Resource",
+			"value": [],
+			"var": "StartingInventory",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "StartRound",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 5,
+			"var": "TotalRounds",
+			"var_type": "int"
+		},
+		{
+			"hint": "Hero",
+			"value": {
+				"id": 1,
+				"name": "Auris",
+				"path": "res://heroes/resources/001_Auris.tres",
+				"type": "Resource"
+			},
+			"var": "DefaultHero",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Quest",
+			"value": {
+				"id": 0,
+				"name": "nothing",
+				"path": "res://levels/Tutorial/assets/empty.tres",
+				"type": "Resource"
+			},
+			"var": "DefaultQuest",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "special",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "novus_tutorial",
+			"var": "SavePathExtra",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "tilemaplayer",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "UNIT_LAYER",
+			"var_type": "Nil"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/game_data.gd",
+			"value": null,
+			"var": "game_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 7,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Nature Tutorial",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "*.gd",
+			"value": "uid://ooosho5c10jt",
+			"var": "CustomScript",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "CodeScript",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Code",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "stats",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 100,
+			"var": "HitPoints",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "Wins",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 12,
+			"var": "Mana",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": {
+
+			},
+			"var": "StartingUnits",
+			"var_type": "Dictionary"
+		},
+		{
+			"hint": "24/17:Resource",
+			"value": [],
+			"var": "StartingInventory",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "StartRound",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 5,
+			"var": "TotalRounds",
+			"var_type": "int"
+		},
+		{
+			"hint": "Hero",
+			"value": {
+				"id": 0,
+				"name": "ZapZap",
+				"path": "res://heroes/resources/000_ZapZap.tres",
+				"type": "Resource"
+			},
+			"var": "DefaultHero",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Quest",
+			"value": {
+				"id": 0,
+				"name": "nothing",
+				"path": "res://levels/Tutorial/assets/empty.tres",
+				"type": "Resource"
+			},
+			"var": "DefaultQuest",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "special",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "nature_tutorial",
+			"var": "SavePathExtra",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "tilemaplayer",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "UNIT_LAYER",
+			"var_type": "Nil"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/game_data.gd",
+			"value": null,
+			"var": "game_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 8,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Magic Tutorial",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "*.gd",
+			"value": "uid://cg8wrb7giwwp2",
+			"var": "CustomScript",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "CodeScript",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Code",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "stats",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 100,
+			"var": "HitPoints",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "Wins",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 12,
+			"var": "Mana",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": {
+
+			},
+			"var": "StartingUnits",
+			"var_type": "Dictionary"
+		},
+		{
+			"hint": "24/17:Resource",
+			"value": [],
+			"var": "StartingInventory",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "StartRound",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 5,
+			"var": "TotalRounds",
+			"var_type": "int"
+		},
+		{
+			"hint": "Hero",
+			"value": {
+				"id": 0,
+				"name": "ZapZap",
+				"path": "res://heroes/resources/000_ZapZap.tres",
+				"type": "Resource"
+			},
+			"var": "DefaultHero",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Quest",
+			"value": {
+				"id": 0,
+				"name": "nothing",
+				"path": "res://levels/Tutorial/assets/empty.tres",
+				"type": "Resource"
+			},
+			"var": "DefaultQuest",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "special",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "magic_tutorial",
+			"var": "SavePathExtra",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "tilemaplayer",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "UNIT_LAYER",
+			"var_type": "Nil"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/game_data.gd",
+			"value": null,
+			"var": "game_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 9,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Tinker Tutorial",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "*.gd",
+			"value": "uid://dfwrs2vkoshwt",
+			"var": "CustomScript",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "CodeScript",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Code",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "stats",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 100,
+			"var": "HitPoints",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "Wins",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 12,
+			"var": "Mana",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": {
+
+			},
+			"var": "StartingUnits",
+			"var_type": "Dictionary"
+		},
+		{
+			"hint": "24/17:Resource",
+			"value": [],
+			"var": "StartingInventory",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "StartRound",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 5,
+			"var": "TotalRounds",
+			"var_type": "int"
+		},
+		{
+			"hint": "Hero",
+			"value": {
+				"id": 0,
+				"name": "ZapZap",
+				"path": "res://heroes/resources/000_ZapZap.tres",
+				"type": "Resource"
+			},
+			"var": "DefaultHero",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Quest",
+			"value": {
+				"id": 0,
+				"name": "nothing",
+				"path": "res://levels/Tutorial/assets/empty.tres",
+				"type": "Resource"
+			},
+			"var": "DefaultQuest",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "special",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "tinker_tutorial",
+			"var": "SavePathExtra",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "tilemaplayer",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "UNIT_LAYER",
+			"var_type": "Nil"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/game_data.gd",
+			"value": null,
+			"var": "game_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 10,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Ancient Tutorial",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "*.gd",
+			"value": "uid://bkqw1hhv0r6le",
+			"var": "CustomScript",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "CodeScript",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Code",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "stats",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 100,
+			"var": "HitPoints",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "Wins",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 12,
+			"var": "Mana",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": {
+
+			},
+			"var": "StartingUnits",
+			"var_type": "Dictionary"
+		},
+		{
+			"hint": "24/17:Resource",
+			"value": [],
+			"var": "StartingInventory",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "StartRound",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 5,
+			"var": "TotalRounds",
+			"var_type": "int"
+		},
+		{
+			"hint": "Hero",
+			"value": {
+				"id": 0,
+				"name": "ZapZap",
+				"path": "res://heroes/resources/000_ZapZap.tres",
+				"type": "Resource"
+			},
+			"var": "DefaultHero",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Quest",
+			"value": {
+				"id": 0,
+				"name": "nothing",
+				"path": "res://levels/Tutorial/assets/empty.tres",
+				"type": "Resource"
+			},
+			"var": "DefaultQuest",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "special",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "ancient_tutorial",
+			"var": "SavePathExtra",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "tilemaplayer",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "UNIT_LAYER",
+			"var_type": "Nil"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/game_data.gd",
+			"value": null,
+			"var": "game_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 11,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Extra Tutorial",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "*.gd",
+			"value": "uid://s5cec84f2ems",
+			"var": "CustomScript",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "CodeScript",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Code",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "stats",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 200,
+			"var": "HitPoints",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "Wins",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 8,
+			"var": "Mana",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": {
+
+			},
+			"var": "StartingUnits",
+			"var_type": "Dictionary"
+		},
+		{
+			"hint": "24/17:Resource",
+			"value": [],
+			"var": "StartingInventory",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "StartRound",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 5,
+			"var": "TotalRounds",
+			"var_type": "int"
+		},
+		{
+			"hint": "Hero",
+			"value": {
+				"id": 0,
+				"name": "ZapZap",
+				"path": "res://heroes/resources/000_ZapZap.tres",
+				"type": "Resource"
+			},
+			"var": "DefaultHero",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Quest",
+			"value": {
+				"id": 0,
+				"name": "nothing",
+				"path": "res://levels/Tutorial/assets/empty.tres",
+				"type": "Resource"
+			},
+			"var": "DefaultQuest",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "special",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "extra_tutorial",
+			"var": "SavePathExtra",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "tilemaplayer",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "UNIT_LAYER",
+			"var_type": "Nil"
+		}
+	]
+]

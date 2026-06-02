@@ -1,0 +1,1465 @@
+[
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Empty",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 3,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_000.tres::SpriteFrames_avmot",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": null,
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 0,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "FirePower",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 0,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_001.tres::SpriteFrames_8d8sd",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://enchantments/Sprites/001_firepower_doodle.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 10.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "Start of Combat: Gain +{Value}% Damage.",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 2,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Last Hope",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 0,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_002.tres::SpriteFrames_topa0",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://enchantments/Sprites/002_last hope_doodle.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 30.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "When Weapon drops below {Value}% Health, double its Damage.",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 3,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Level Up",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 0,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_003.tres::SpriteFrames_2bqtg",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://enchantments/Sprites/003_level up_doodle.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 2,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0.5,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "On Trigger: Weapon gains +{Value} Damage.",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 4,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Extra Life",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 1,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_004.tres::SpriteFrames_cxu47",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://enchantments/Sprites/004_extra life_doodle.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 10.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "Start of Combat: Gain +{Value}% Health. (Double for Nature items)",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 5,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Second Chance",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 1,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_005.tres::SpriteFrames_3dhsf",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://enchantments/Sprites/005_second chance_doodle.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 2,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "When this unit takes fatal damage, set its Health to 1. (Works twice on Ancient units, does not stack or spread on summons)",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 6,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Accelerate",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 2,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_006.tres::SpriteFrames_cvsi2",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://enchantments/Sprites/006_accelerate_doodle.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 2,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 2.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "On trigger: Trigger {Value}% faster. (5 times max). If unit is Tinker, raise max to 10.",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 7,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Scorch",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 0,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_007.tres::SpriteFrames_du4u2",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://enchantments/Sprites/007_scorch_doodle.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 20.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "Deals +{Value}% Bonus Damage to Nature units. (Doesn't stack with other Bonus Damage effects)",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 8,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Spellbinding",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 0,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_008.tres::SpriteFrames_rmp5o",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://enchantments/Sprites/007_scorch_doodle.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 20.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "Deals +{Value}% Bonus Damage to Magic units. (Doesn't stack with other Bonus Damage effects)",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 9,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Spell Shield",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 1,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_009.tres::SpriteFrames_bklml",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://enchantments/Sprites/009_spell shield_doodle.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 20.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "Takes {Value}% less Damage from Explosive, Pierce and Stun Weapons.",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 10,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Big Buffer",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 1,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_010.tres::SpriteFrames_x3u8i",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://enchantments/Sprites/010_big buffer_doodle.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 2,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 25.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "Whenever you take more than 100 Damage, negate {Value} Damage.",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 11,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Small Shield",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 1,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_011.tres::SpriteFrames_mntlu",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://enchantments/Sprites/010_big buffer_doodle.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 2,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 10.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "Whenever you take less than 25 Damage, negate {Value} Damage.",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 12,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Pierce Modifier",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 0,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_012.tres::SpriteFrames_8gtdv",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": null,
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 2,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "If the Weapon has a Normal Damage Type, change it to Pierce and gain +5% pierce.",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 13,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Explosive Modifier",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 0,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_013.tres::SpriteFrames_ipqjj",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": null,
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 2,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "If the Weapon has a Normal Damage Type, change it to Explosive and gain +5% explosive.",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 14,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Regeneration",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 2,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_014.tres::SpriteFrames_1do6g",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": null,
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 5.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "Whenever this unit triggers, increase its Health by +{Value}.",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 15,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Well Oiled",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 2,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_015.tres::SpriteFrames_0rr7u",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": null,
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0.2,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "Removes {Value}s from incoming stuns.",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 16,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Miracle",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 3,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_016.tres::SpriteFrames_ng260",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": null,
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 2,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "Start of Combat: Fill this unit with random Enchantments.",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 17,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Mossy Shield",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 1,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_017.tres::SpriteFrames_wnttp",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": null,
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 15.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "Takes {Value}% less Damage from Basic and Nature.",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 18,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Cutting-Edge Shield",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 1,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_018.tres::SpriteFrames_itvc1",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": null,
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 15.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "Takes {Value}% less Damage from Tinker and Novus.",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 19,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Conjured Shield",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 1,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_019.tres::SpriteFrames_7qyao",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": null,
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 15.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "Takes {Value}% less Damage from Magic and Ancient.",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 20,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Bot Buff",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 1,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_020.tres::SpriteFrames_fql23",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": null,
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 2,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 0.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "Negate the first instance of Damage. (does not stack)",
+			"var": "Info",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/module.gd",
+			"value": null,
+			"var": "module.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 21,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Power Creep",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Offense:0,Defense:1,Cooldown:2,Special:3",
+			"value": 0,
+			"var": "Group",
+			"var_type": "int"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://enchantments/Resources/enchant_021.tres::SpriteFrames_rvo0x",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": null,
+			"var": "Doodle",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 7.0,
+			"var": "Value",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": "Start of Combat: Increase damage class bonus by +{Value}%",
+			"var": "Info",
+			"var_type": "String"
+		}
+	]
+]
