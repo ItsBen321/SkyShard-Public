@@ -127,7 +127,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Gain +{Value}% Damage.",
+			"value": "Start of Combat: Gain +10.0% Damage.",
 			"var": "Info",
 			"var_type": "String"
 		}
@@ -195,7 +195,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When Weapon drops below {Value}% Health, double its Damage.",
+			"value": "When Weapon drops below 30.0% Health, double its Damage.",
 			"var": "Info",
 			"var_type": "String"
 		}
@@ -263,7 +263,7 @@
 		},
 		{
 			"hint": "",
-			"value": "On Trigger: Weapon gains +{Value} Damage.",
+			"value": "On Trigger: Weapon gains +0.5 Damage.",
 			"var": "Info",
 			"var_type": "String"
 		}
@@ -331,7 +331,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Gain +{Value}% Health. (Double for Nature items)",
+			"value": "Start of Combat: Gain +10.0% Health. (Double for Nature items)",
 			"var": "Info",
 			"var_type": "String"
 		}
@@ -467,7 +467,7 @@
 		},
 		{
 			"hint": "",
-			"value": "On trigger: Trigger {Value}% faster. (5 times max). If unit is Tinker, raise max to 10.",
+			"value": "On trigger: Trigger 2.0% faster. (5 times max). If unit is Tinker, raise max to 10.",
 			"var": "Info",
 			"var_type": "String"
 		}
@@ -535,7 +535,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Deals +{Value}% Bonus Damage to Nature units. (Doesn't stack with other Bonus Damage effects)",
+			"value": "Deals +20.0% Bonus Damage to Nature units. (Doesn't stack with other Bonus Damage effects)",
 			"var": "Info",
 			"var_type": "String"
 		}
@@ -603,7 +603,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Deals +{Value}% Bonus Damage to Magic units. (Doesn't stack with other Bonus Damage effects)",
+			"value": "Deals +20.0% Bonus Damage to Magic units. (Doesn't stack with other Bonus Damage effects)",
 			"var": "Info",
 			"var_type": "String"
 		}
@@ -671,7 +671,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Takes {Value}% less Damage from Explosive, Pierce and Stun Weapons.",
+			"value": "Takes 20.0% less Damage from Explosive, Pierce and Stun Weapons.",
 			"var": "Info",
 			"var_type": "String"
 		}
@@ -739,7 +739,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Whenever you take more than 100 Damage, negate {Value} Damage.",
+			"value": "Whenever you take more than 100 Damage, negate 25.0 Damage.",
 			"var": "Info",
 			"var_type": "String"
 		}
@@ -807,7 +807,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Whenever you take less than 25 Damage, negate {Value} Damage.",
+			"value": "Whenever you take less than 25 Damage, negate 10.0 Damage.",
 			"var": "Info",
 			"var_type": "String"
 		}
@@ -1002,7 +1002,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Whenever this unit triggers, increase its Health by +{Value}.",
+			"value": "Whenever this unit triggers, increase its Health by +5.0.",
 			"var": "Info",
 			"var_type": "String"
 		}
@@ -1067,7 +1067,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Removes {Value}s from incoming stuns.",
+			"value": "Removes 0.2s from incoming stuns.",
 			"var": "Info",
 			"var_type": "String"
 		}
@@ -1197,7 +1197,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Takes {Value}% less Damage from Basic and Nature.",
+			"value": "Takes 15.0% less Damage from Basic and Nature.",
 			"var": "Info",
 			"var_type": "String"
 		}
@@ -1262,7 +1262,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Takes {Value}% less Damage from Tinker and Novus.",
+			"value": "Takes 15.0% less Damage from Tinker and Novus.",
 			"var": "Info",
 			"var_type": "String"
 		}
@@ -1327,7 +1327,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Takes {Value}% less Damage from Magic and Ancient.",
+			"value": "Takes 15.0% less Damage from Magic and Ancient.",
 			"var": "Info",
 			"var_type": "String"
 		}
@@ -1457,7 +1457,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Increase damage class bonus by +{Value}%",
+			"value": "Start of Combat: Increase damage class bonus by +7.0%",
 			"var": "Info",
 			"var_type": "String"
 		}

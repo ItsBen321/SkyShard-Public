@@ -26,13 +26,18 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://levels/assets/000_ranked.gd",
+				"type": "GDScript"
+			},
 			"var": "CodeScript",
 			"var_type": "Object"
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"type": "Node"
+			},
 			"var": "Code",
 			"var_type": "Nil"
 		},
@@ -150,13 +155,18 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://levels/assets/001_unrated.gd",
+				"type": "GDScript"
+			},
 			"var": "CodeScript",
 			"var_type": "Object"
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"type": "Node"
+			},
 			"var": "Code",
 			"var_type": "Nil"
 		},
@@ -274,13 +284,18 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://levels/assets/002_solo.gd",
+				"type": "GDScript"
+			},
 			"var": "CodeScript",
 			"var_type": "Object"
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"type": "Node"
+			},
 			"var": "Code",
 			"var_type": "Nil"
 		},
@@ -398,13 +413,18 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://levels/assets/003_Pacifist.gd",
+				"type": "GDScript"
+			},
 			"var": "CodeScript",
 			"var_type": "Object"
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"type": "Node"
+			},
 			"var": "Code",
 			"var_type": "Nil"
 		},
@@ -522,13 +542,18 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://levels/assets/004_King.gd",
+				"type": "GDScript"
+			},
 			"var": "CodeScript",
 			"var_type": "Object"
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"type": "Node"
+			},
 			"var": "Code",
 			"var_type": "Nil"
 		},
@@ -646,13 +671,18 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://levels/assets/005_Tiny.gd",
+				"type": "GDScript"
+			},
 			"var": "CodeScript",
 			"var_type": "Object"
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"type": "Node"
+			},
 			"var": "Code",
 			"var_type": "Nil"
 		},
@@ -738,7 +768,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://levels/assets/005_tiny_layer.tscn",
+				"type": "PackedScene"
+			},
 			"var": "UNIT_LAYER",
 			"var_type": "Nil"
 		}
@@ -770,13 +803,18 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://levels/assets/006_Tutorial_Novus.gd",
+				"type": "GDScript"
+			},
 			"var": "CodeScript",
 			"var_type": "Object"
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"type": "Node"
+			},
 			"var": "Code",
 			"var_type": "Nil"
 		},
@@ -904,13 +942,18 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://levels/assets/007_Tutorial_Nature.gd",
+				"type": "GDScript"
+			},
 			"var": "CodeScript",
 			"var_type": "Object"
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"type": "Node"
+			},
 			"var": "Code",
 			"var_type": "Nil"
 		},
@@ -1038,13 +1081,18 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://levels/assets/008_Tutorial_Magic.gd",
+				"type": "GDScript"
+			},
 			"var": "CodeScript",
 			"var_type": "Object"
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"type": "Node"
+			},
 			"var": "Code",
 			"var_type": "Nil"
 		},
@@ -1172,13 +1220,18 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://levels/assets/009_Tutorial_Tinker.gd",
+				"type": "GDScript"
+			},
 			"var": "CodeScript",
 			"var_type": "Object"
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"type": "Node"
+			},
 			"var": "Code",
 			"var_type": "Nil"
 		},
@@ -1306,13 +1359,18 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://levels/assets/010_Tutorial_Ancient.gd",
+				"type": "GDScript"
+			},
 			"var": "CodeScript",
 			"var_type": "Object"
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"type": "Node"
+			},
 			"var": "Code",
 			"var_type": "Nil"
 		},
@@ -1440,13 +1498,18 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://levels/assets/011_Tutorial_Extra.gd",
+				"type": "GDScript"
+			},
 			"var": "CodeScript",
 			"var_type": "Object"
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"type": "Node"
+			},
 			"var": "Code",
 			"var_type": "Nil"
 		},

@@ -97,7 +97,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.65,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -547,7 +547,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -642,7 +642,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Give a random friendly explosive Weapon +{ExplosiveBuff}% Explosive and +{DamageBuff} Damage.",
+			"value": "Give a random friendly explosive Weapon +0.5% Explosive and +1 Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -706,7 +706,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.35,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -813,7 +813,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 1,
+				"ExplosiveBuff": 0.5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -1064,7 +1065,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/001_Velmir/unit_001_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -1143,7 +1147,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -1298,7 +1302,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.25,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -1746,7 +1750,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -1841,7 +1845,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When this takes Damage, gain +{DamageBuff} Damage.",
+			"value": "When this takes Damage, gain +15 Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -1901,7 +1905,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.65,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -2006,7 +2010,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 15
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -2264,7 +2268,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/003_RedSunShrine/unit_003_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -2343,7 +2350,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -2438,7 +2445,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Give a Defense unit +{HealthBuff} Health for each adjacent Town unit.",
+			"value": "Give a Defense unit +3 Health for each adjacent Town unit.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -2498,7 +2505,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.6,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -2603,7 +2610,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 3
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -2854,7 +2861,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/004_Jeffrey/unit_004_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -2933,7 +2943,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -3028,7 +3038,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When adjacent Town unit triggers, give a random friendly Weapon +{DamageBuff} Damage and a random friendly Defense +{HealthBuff} Health.",
+			"value": "When adjacent Town unit triggers, give a random friendly Weapon +0.5 Damage and a random friendly Defense +2 Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -3195,7 +3205,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 0.5,
+				"HealthBuff": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -3446,7 +3457,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/005_TownHall/unit_005_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -3525,7 +3539,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -3620,7 +3634,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Adjacent Town units get {SpeedBuff}% speed.",
+			"value": "Start of Combat: Adjacent Town units get 15% speed.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -3785,7 +3799,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"SpeedBuff": 15
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -4030,7 +4044,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/006_Powerline/unit_006_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -4109,7 +4126,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -4204,7 +4221,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Friendly Town units gain +{HealthBuffStart} Health for each one. Passive: When a friendly Town unit triggers, {Amount} random friendly Nature units gains +{HealthBuff} Health.",
+			"value": "Start of Combat: Friendly Town units gain +2 Health for each one. Passive: When a friendly Town unit triggers, 3 random friendly Nature units gains +1 Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -4373,7 +4390,9 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 3,
+				"HealthBuff": 1,
+				"HealthBuffStart": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -4627,7 +4646,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/007_BigTree/unit_007_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -4706,7 +4728,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -4801,7 +4823,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Takes {DefenseBuff}% less Damage.",
+			"value": "Takes 20% less Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -4966,7 +4988,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DefenseBuff": 20
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -5214,7 +5236,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/008_StoneWall/unit_008_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -5293,7 +5318,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -5448,7 +5473,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.8,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -5908,7 +5933,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -6488,7 +6513,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -6583,7 +6608,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Adjacent Weapons have +{Buff} Damage.",
+			"value": "Passive: Adjacent Weapons have +5 Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -6748,7 +6773,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Buff": 5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -7002,7 +7027,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/011_CrystalRuby/unit_011_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -7081,7 +7109,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -7176,7 +7204,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Adjacent units trigger {Buff}% faster.",
+			"value": "Passive: Adjacent units trigger 5% faster.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -7341,7 +7369,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Buff": 5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -7595,7 +7623,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/012_CrystalAzurite/unit_012_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -7674,7 +7705,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -7769,7 +7800,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Adjacent units have +{Buff} Health.",
+			"value": "Passive: Adjacent units have +30 Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -7934,7 +7965,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Buff": 30
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -8188,7 +8219,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/013_CrystalEmerald/unit_013_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -8267,7 +8301,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -8362,7 +8396,7 @@
 		},
 		{
 			"hint": "",
-			"value": "The Weapon above this gains +{DamageBuff}% Damage of the Weapon below this (and the other way around).",
+			"value": "The Weapon above this gains +3% Damage of the Weapon below this (and the other way around).",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -8422,7 +8456,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.75,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -8527,7 +8561,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 3
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -8778,7 +8812,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/014_Tether/unit_014_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -8857,7 +8894,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -8952,7 +8989,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When you have at least 3 adjacent cooldown units, each time one triggers, a different adjacent unit gets {SpeedBuff}% Speed (Destroys itself after {Amount} triggers)",
+			"value": "Passive: When you have at least 3 adjacent cooldown units, each time one triggers, a different adjacent unit gets 2% Speed (Destroys itself after 30 triggers)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -9119,7 +9156,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 30,
+				"SpeedBuff": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -9364,7 +9402,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/015_ConjuredClock/unit_015_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -9443,7 +9484,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -9538,7 +9579,7 @@
 		},
 		{
 			"hint": "",
-			"value": "This deals Stun Damage. Also stuns itself and {Amount} additional random enemy units.",
+			"value": "This deals Stun Damage. Also stuns itself and 4 additional random enemy units.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -9598,7 +9639,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.75,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -9703,7 +9744,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 4
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -9956,7 +9997,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/016_StoneGorgon/unit_016_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -10035,7 +10079,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -10130,7 +10174,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Anytime there are units on to the left, destroy them and split +{HealthBuff}% of their Health and +{DamageBuff}% of their Damage between the units on the right.",
+			"value": "Anytime there are units on to the left, destroy them and split +80% of their Health and +30% of their Damage between the units on the right.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -10297,7 +10341,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 30,
+				"HealthBuff": 80
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -10548,7 +10593,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/017_MateriaChamber/unit_017_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -10627,7 +10675,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -10722,7 +10770,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When an enemy Weapon attacks, gain +{HealthBuff} Health.",
+			"value": "Passive: When an enemy Weapon attacks, gain +5 Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -10887,7 +10935,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -11138,7 +11186,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/018_ForceField/unit_018_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -11217,7 +11268,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -11312,7 +11363,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When a friendly Tinker unit triggers, charge this +1. After every {Amount} charges, trigger {Trigger} random friendly Tinker units.",
+			"value": "When a friendly Tinker unit triggers, charge this +1. After every 20 charges, trigger 5 random friendly Tinker units.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -11479,7 +11530,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 20,
+				"Trigger": 5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -11724,7 +11776,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/019_BigRedButton/unit_019_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -11803,7 +11858,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -11898,7 +11953,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When Destroyed: Summon 2 smaller Bamboo with {HealthBuff}% Health. (repeats once)",
+			"value": "When Destroyed: Summon 2 smaller Bamboo with 50% Health. (repeats once)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -12063,7 +12118,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 50
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -12311,7 +12366,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/020_Bamboo/unit_020_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -12390,7 +12448,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -12485,7 +12543,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When Destroyed: Summon 2 tiny Bamboo with {HealthBuff}% Health.",
+			"value": "When Destroyed: Summon 2 tiny Bamboo with 50% Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -12650,7 +12708,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 50
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -12898,7 +12956,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/021_SmallBamboo/unit_021_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -12977,7 +13038,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -13560,7 +13621,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -13655,7 +13716,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When this takes Damage, give adjacent units +Health equal to {HealthBuff}% of the Damage.",
+			"value": "Passive: When this takes Damage, give adjacent units +Health equal to 25% of the Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -13820,7 +13881,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 25
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -14071,7 +14132,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/023_MushroomMender/unit_023_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -14150,7 +14214,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -14663,7 +14727,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/024_ManaMachina/unit_024_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -14742,7 +14809,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -14837,7 +14904,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When a friendly Magic gets destroyed, divide its base stats over {Amount} other friendly units.",
+			"value": "Passive: When a friendly Magic gets destroyed, divide its base stats over 3 other friendly units.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -15002,7 +15069,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 3
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -15247,7 +15314,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/025_InfinityPool/unit_025_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -15326,7 +15396,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -15824,7 +15894,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/026_IrisRefractor/unit_026_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -15903,7 +15976,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -15998,7 +16071,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Gets +{DamageBuff} Damage for each unique tag you have (Tier, Faction, Type, Role).",
+			"value": "Start of Combat: Gets +4 Damage for each unique tag you have (Tier, Faction, Type, Role).",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -16058,7 +16131,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.55,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -16163,7 +16236,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 4
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -16433,7 +16506,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/027_Assembolator/unit_027_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -16512,7 +16588,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -16607,7 +16683,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When an adjacent unit triggers, charge this +1. When at {Amount} charges, activate and reset.",
+			"value": "When an adjacent unit triggers, charge this +1. When at 20 charges, activate and reset.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -16772,7 +16848,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 20
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -17047,7 +17123,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/028_BlightedBallista/unit_028_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -17126,7 +17205,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -17281,7 +17360,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.0,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -17627,7 +17706,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/029_Leech/unit_029_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -17706,7 +17788,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -18286,7 +18368,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -18441,7 +18523,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.5,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -18895,7 +18977,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -19050,7 +19132,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.6,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -19417,7 +19499,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/032_Magnus/unit_032_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -19496,7 +19581,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -19591,7 +19676,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Adjacent Town units become Magic. Adjacent Magic units get +{HealthBuff} Health.",
+			"value": "Start of Combat: Adjacent Town units become Magic. Adjacent Magic units get +25 Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -19756,7 +19841,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 25
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -20007,7 +20092,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/033_Cauldron/unit_033_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -20086,7 +20174,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -20241,7 +20329,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 4.0,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -20600,7 +20688,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/034_Graveyard/unit_034_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -20679,7 +20770,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -20774,7 +20865,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When Damaged, adjacent Nature units get +{HealthBuff} Health. When you buy a Tree, get a copy.",
+			"value": "Passive: When Damaged, adjacent Nature units get +5 Health. When you buy a Tree, get a copy.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -20939,7 +21030,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -21193,7 +21284,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/035_Tree/unit_035_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -21272,7 +21366,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -21861,7 +21955,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -21956,7 +22050,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Spread {Amount} random Enchantments between all adjacent units. Also add one to your Inventory.",
+			"value": "Start of Combat: Spread 10 random Enchantments between all adjacent units. Also add one to your Inventory.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -22121,7 +22215,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -22366,7 +22460,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/037_IntervallumFacility/unit_037_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -22445,7 +22542,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -22540,7 +22637,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Reflects {DamageBuff}% Damage back to the source.",
+			"value": "Passive: Reflects 30% Damage back to the source.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -22705,7 +22802,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 30
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -22950,7 +23047,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/038_VileTotem/unit_038_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -23029,7 +23129,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -23184,7 +23284,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.7,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -23551,7 +23651,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/039_Chamaeleontis/unit_039_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -23630,7 +23733,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -23725,7 +23828,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Splits its attack across the 3 closest enemies instead of 1. On Trigger: Loses {DamageNerf} Damage.",
+			"value": "Passive: Splits its attack across the 3 closest enemies instead of 1. On Trigger: Loses 1 Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -23785,7 +23888,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.6,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -23890,7 +23993,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageNerf": 1
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -24157,7 +24260,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/040_Tesla/unit_040_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -24236,7 +24342,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -24331,7 +24437,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Trigger the Cooldown of the unit below this, it loses {HealthNerf}% Health.",
+			"value": "Start of Combat: Trigger the Cooldown of the unit below this, it loses 40% Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -24496,7 +24602,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthNerf": 40
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -24747,7 +24853,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/041_Jumpstarter/unit_041_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -24826,7 +24935,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -24921,7 +25030,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When this gets {Amount} or more Health at once from another unit, it attacks.",
+			"value": "Passive: When this gets 2 or more Health at once from another unit, it attacks.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -24981,7 +25090,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.0,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -25086,7 +25195,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -25352,7 +25461,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/042_PiranhaPlant/unit_042_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -25431,7 +25543,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -25526,7 +25638,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Deals Damage equal to {DamageBuff}% of the Health of adjacent Defense units. (Damage can't be buffed otherwise)",
+			"value": "Deals Damage equal to 15% of the Health of adjacent Defense units. (Damage can't be buffed otherwise)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -25586,7 +25698,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.75,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -25691,7 +25803,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 15
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -25976,7 +26088,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/043_WardensFlame/unit_043_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -26055,7 +26170,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -26150,7 +26265,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: All friendly and enemy cooldowns are increased by {TimeNerf}s.",
+			"value": "Start of Combat: All friendly and enemy cooldowns are increased by 0.2s.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -26315,7 +26430,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"TimeNerf": 0.2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -26557,7 +26672,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/044_AtomicTimekeeper/unit_044_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -26636,7 +26754,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -26731,7 +26849,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When an adjacent unit dies, resummon it with {HealthBuff}% of its base Health. (doesn't stack)",
+			"value": "Passive: When an adjacent unit dies, resummon it with 10% of its base Health. (doesn't stack)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -26896,7 +27014,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -27141,7 +27259,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/045_AltarOfDecima/unit_045_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -27220,7 +27341,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -27315,7 +27436,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When a friendly Defense unit gets destroyed, a random friendly Weapon gains +{DamageBuff} Damage.",
+			"value": "Passive: When a friendly Defense unit gets destroyed, a random friendly Weapon gains +2 Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -27480,7 +27601,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -27734,7 +27855,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/046_Necromancer/unit_046_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -27813,7 +27937,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -27908,7 +28032,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Adjacent units take {HealthBuff}% less damage.",
+			"value": "Passive: Adjacent units take 15% less damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -28073,7 +28197,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 15
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -28321,7 +28445,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/047_ToweringShadewood/unit_047_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -28400,7 +28527,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -28495,7 +28622,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Ignore the first {Amount} instances of Damage it takes.",
+			"value": "Passive: Ignore the first 3 instances of Damage it takes.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -28660,7 +28787,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 3
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -28908,7 +29035,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/048_BufferBot/unit_048_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -28987,7 +29117,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -29515,7 +29645,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/049_MagicMissileMine/unit_049_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -29594,7 +29727,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -29749,7 +29882,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.5,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -30095,7 +30228,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/050_BlackCavus/unit_050_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -30174,7 +30310,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -30269,7 +30405,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Give a random friendly Nature unit +{HealthBuff} Health. (that's not a Botanist)",
+			"value": "Give a random friendly Nature unit +10 Health. (that's not a Botanist)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -30329,7 +30465,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.2,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -30434,7 +30570,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -30685,7 +30821,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/051_Botanist/unit_051_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -30764,7 +30903,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -30859,7 +30998,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Give a random friendly Weapon +{DamageBuff} Damage.",
+			"value": "Give a random friendly Weapon +3 Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -30919,7 +31058,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.6,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -31024,7 +31163,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 3
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -31278,7 +31417,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/052_Foundry/unit_052_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -31357,7 +31499,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -31452,7 +31594,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Trigger {Amount} adjacent Town units. (can't Trigger other Solo units)",
+			"value": "Trigger 2 adjacent Town units. (can't Trigger other Solo units)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -31512,7 +31654,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.75,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -31617,7 +31759,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -31859,7 +32001,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/053_Saloon/unit_053_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -31938,7 +32083,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -32033,7 +32178,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: All Town units above this trigger +{SpeedBuff}% faster for each Town unit below this. (and the other way around)",
+			"value": "Start of Combat: All Town units above this trigger +2% faster for each Town unit below this. (and the other way around)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -32198,7 +32343,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"SpeedBuff": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -32440,7 +32585,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/054_Bank/unit_054_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -32519,7 +32667,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -32674,7 +32822,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 2.6,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -33039,7 +33187,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/055_Mechanic/unit_055_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -33118,7 +33269,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -33213,7 +33364,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Gains +{DamageBuff}% Damage. After 30 seconds, fire extra random shots.",
+			"value": "Gains +1% Damage. After 30 seconds, fire extra random shots.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -33273,7 +33424,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.05,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -33378,7 +33529,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 1
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -33626,7 +33777,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/056_Fatigue/unit_056_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -33705,7 +33859,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -33800,7 +33954,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Steals {Amount} Health from an adjacent unit. When this gains Health, it's doubled.",
+			"value": "Steals 20 Health from an adjacent unit. When this gains Health, it's doubled.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -33860,7 +34014,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.6,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -33965,7 +34119,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 20
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -34216,7 +34370,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/057_Rafflesia/unit_057_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -34295,7 +34452,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -34390,7 +34547,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When a friendly Weapon attacks, adjacent Town units get +{HealthBuff} Health.",
+			"value": "Passive: When a friendly Weapon attacks, adjacent Town units get +1 Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -34555,7 +34712,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 1
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -34800,7 +34957,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/058_Blacksmith/unit_058_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -34879,7 +35039,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -34974,7 +35134,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When this gets Health, give a random friendly Weapon unit +{DamageBuff} Damage.",
+			"value": "Passive: When this gets Health, give a random friendly Weapon unit +3 Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -35139,7 +35299,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 3
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -35390,7 +35550,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/059_AlteringStone/unit_059_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -35469,7 +35632,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -35967,7 +36130,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/060_HauntedClocktower/unit_060_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -36046,7 +36212,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -36141,7 +36307,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Adjacent Defense units gain +{HealthBuff}% Health.",
+			"value": "Start of Combat: Adjacent Defense units gain +20% Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -36306,7 +36472,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 20
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -36563,7 +36729,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/061_SunriseFlower/unit_061_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -36642,7 +36811,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -36737,7 +36906,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Give the Weapon to the right +{DamageBuff} Damage for each friendly Town unit.",
+			"value": "Give the Weapon to the right +0.5 Damage for each friendly Town unit.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -36797,7 +36966,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.8,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -36902,7 +37071,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 0.5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -37147,7 +37316,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/062_KnowledgeCompositum/unit_062_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -37226,7 +37398,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -37381,7 +37553,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.75,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -37727,7 +37899,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/063_Marketplace/unit_063_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -37806,7 +37981,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -37901,7 +38076,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When in Fatigue: Friendly Weapons gain +{DamageBuff}% Damage.",
+			"value": "When in Fatigue: Friendly Weapons gain +15% Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -38066,7 +38241,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 15
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -38311,7 +38486,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/064_SpiritTorch/unit_064_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -38390,7 +38568,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -38485,7 +38663,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When an adjacent unit gets destroyed, stun {Amount} random enemy units for {StunAmount}s.",
+			"value": "Passive: When an adjacent unit gets destroyed, stun 5 random enemy units for 0.5s.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -38652,7 +38830,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 5,
+				"StunAmount": 0.5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -38894,7 +39073,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/065_CursedBell/unit_065_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -38973,7 +39155,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -39068,7 +39250,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Gets +{HealthBuff} Health for each unique Tag you have. (Tier, Faction, Type, Role)",
+			"value": "Start of Combat: Gets +25 Health for each unique Tag you have. (Tier, Faction, Type, Role)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -39233,7 +39415,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 25
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -39475,7 +39657,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/066_BrickArcus/unit_066_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -39554,7 +39739,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -39649,7 +39834,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When any unit gets destroyed, this gains +{DamageBuff} Damage.",
+			"value": "Passive: When any unit gets destroyed, this gains +2 Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -39709,7 +39894,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.65,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -39814,7 +39999,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -40083,7 +40268,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/067_EntombedTerror/unit_067_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -40162,7 +40350,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -40317,7 +40505,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.9,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -40782,7 +40970,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -40877,7 +41065,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Gain +{HealthBuff} Health for each enemy Weapon.",
+			"value": "Start of Combat: Gain +20 Health for each enemy Weapon.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -41042,7 +41230,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 20
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -41296,7 +41484,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/069_Shrub/unit_069_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -41375,7 +41566,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -41470,7 +41661,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Trigger a random friendly Town unit and Stun a random enemy Town unit for {StunAmount}s. (can't trigger other Solo units)",
+			"value": "Trigger a random friendly Town unit and Stun a random enemy Town unit for 0.5s. (can't trigger other Solo units)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -41530,7 +41721,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.7,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -41635,7 +41826,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"StunAmount": 0.5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -41886,7 +42077,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/070_Mill/unit_070_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -41965,7 +42159,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -42060,7 +42254,7 @@
 		},
 		{
 			"hint": "",
-			"value": "The fastest friendly and enemy unit trigger {Amount}s slower.",
+			"value": "The fastest friendly and enemy unit trigger 0.1s slower.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -42120,7 +42314,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.5,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -42225,7 +42419,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 0.1
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -42470,7 +42664,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/071_TimeDilutor/unit_071_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -42549,7 +42746,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -42644,7 +42841,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When Destroyed: Increase the cooldown of a random Enemy unit by {SlowAmount}s.",
+			"value": "When Destroyed: Increase the cooldown of a random Enemy unit by 0.2s.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -42809,7 +43006,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"SlowAmount": 0.2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -43051,7 +43248,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/072_EMPMine/unit_072_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -43130,7 +43330,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -43707,7 +43907,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -43862,7 +44062,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.75,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -44232,7 +44432,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/074_MechaDragon/unit_074_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -44311,7 +44514,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -44812,7 +45015,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/075_Bakery/unit_075_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -44891,7 +45097,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -44986,7 +45192,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Destroy {Amount} random adjacent units permanently. For each one destroyed, add a higher Tier unit to your inventory.",
+			"value": "Start of Combat: Destroy 2 random adjacent units permanently. For each one destroyed, add a higher Tier unit to your inventory.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -45151,7 +45357,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -45402,7 +45608,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/076_ThePortal/unit_076_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -45481,7 +45690,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -45636,7 +45845,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 4.5,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -45995,7 +46204,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/077_MyrriaStringbinder/unit_077_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -46074,7 +46286,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -46169,7 +46381,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When an adjacent unit triggers, add {HealthBuff}% of its Health to your rightmost unit. (max 30)",
+			"value": "When an adjacent unit triggers, add 3% of its Health to your rightmost unit. (max 30)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -46334,7 +46546,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 3
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -46582,7 +46794,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/078_GlowBerries/unit_078_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -46661,7 +46876,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -46816,7 +47031,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.45,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -47259,7 +47474,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -47354,7 +47569,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Give a random friendly Weapon unit +{DamageBuff} Damage for each unique friendly Nature unit.",
+			"value": "Give a random friendly Weapon unit +0.5 Damage for each unique friendly Nature unit.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -47414,7 +47629,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.5,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -47519,7 +47734,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 0.5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -47770,7 +47985,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/080_Lumberjack/unit_080_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -47849,7 +48067,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -47944,7 +48162,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When an adjacent Town unit triggers, give it +{HealthBuff} Health.",
+			"value": "When an adjacent Town unit triggers, give it +8 Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -48109,7 +48327,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 8
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -48360,7 +48578,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/081_Well/unit_081_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -48439,7 +48660,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -48534,7 +48755,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Give a friendly Ancient or Magic unit +{HealthBuff} Health. Upgrades with +{Amount} when an adjacent Town unit triggers.",
+			"value": "Give a friendly Ancient or Magic unit +1 Health. Upgrades with +1 when an adjacent Town unit triggers.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -48594,7 +48815,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.8,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -48701,7 +48922,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 1,
+				"HealthBuff": 1
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -48952,7 +49174,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/082_FortuneTeller/unit_082_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -49031,7 +49256,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -49126,7 +49351,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When this takes Damage, shoot {DamageBuff}% of the Damage back.",
+			"value": "Passive: When this takes Damage, shoot 20% of the Damage back.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -49291,7 +49516,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 20
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -49536,7 +49761,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/083_PrismaticMirror/unit_083_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -49615,7 +49843,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -49710,7 +49938,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Give a random friendly unit of every Faction +{HealthBuff} Health.",
+			"value": "Give a random friendly unit of every Faction +2 Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -49770,7 +49998,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.8,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -49875,7 +50103,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -50126,7 +50354,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/084_MicroLibrarium/unit_084_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -50205,7 +50436,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -50300,7 +50531,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Deals Damage equal to {DamageBuff}% of its Health. (Damage can't be buffed otherwise)",
+			"value": "Deals Damage equal to 20% of its Health. (Damage can't be buffed otherwise)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -50360,7 +50591,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.55,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -50465,7 +50696,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 20
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -50737,7 +50968,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/085_ForestSpirit/unit_085_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -50816,7 +51050,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -50911,7 +51145,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Gain {HealthBuff}% of the Health of all adjacent Defense units (that are not Pillars).",
+			"value": "Start of Combat: Gain 25% of the Health of all adjacent Defense units (that are not Pillars).",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -51076,7 +51310,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 25
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -51324,7 +51558,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/086_Pillar/unit_086_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -51403,7 +51640,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -51498,7 +51735,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Has +{DamageBuff} Damage for each friendly Tinker and Magic unit. When this attacks, it targets 5 random enemies and 1 random friendly unit.  (Damage can't be buffed otherwise)",
+			"value": "Start of Combat: Has +0.5 Damage for each friendly Tinker and Magic unit. When this attacks, it targets 5 random enemies and 1 random friendly unit.  (Damage can't be buffed otherwise)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -51558,7 +51795,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.75,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -51663,7 +51900,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 0.5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -51924,7 +52161,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/087_WeatherMachine/unit_087_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -52003,7 +52243,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -52098,7 +52338,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: If this has no adjacent units, all friendly Town units trigger {SpeedBuff}% faster.",
+			"value": "Start of Combat: If this has no adjacent units, all friendly Town units trigger 7% faster.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -52263,7 +52503,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"SpeedBuff": 7
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -52517,7 +52757,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/088_WatchTower/unit_088_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -52596,7 +52839,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -52691,7 +52934,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: All your Crystals get a +{Buff}% bonus. (stacks). When you buy a Crystal Core, get a random Crystal.",
+			"value": "Start of Combat: All your Crystals get a +50% bonus. (stacks). When you buy a Crystal Core, get a random Crystal.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -52856,7 +53099,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Buff": 50
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -53107,7 +53350,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/089_CrystalCore/unit_089_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -53186,7 +53432,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -53281,7 +53527,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Steal {HealthBuff} life from all adjacent Town units, add the total to this unit and to your unit with the most Health.",
+			"value": "Steal 3 life from all adjacent Town units, add the total to this unit and to your unit with the most Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -53341,7 +53587,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.55,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -53446,7 +53692,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 3
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -53697,7 +53943,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/090_CorruptAlchemist/unit_090_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -53776,7 +54025,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -53931,7 +54180,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 2.5,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -54283,7 +54532,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/091_SuperCharger/unit_091_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -54362,7 +54614,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -54866,7 +55118,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/092_ManaJar/unit_092_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -54945,7 +55200,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -55040,7 +55295,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Remove {DamageNerf} Damage from a random enemy Weapon.",
+			"value": "Remove 1 Damage from a random enemy Weapon.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -55100,7 +55355,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.9,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -55205,7 +55460,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageNerf": 1
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -55450,7 +55705,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/093_Derelict/unit_093_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -55529,7 +55787,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -56112,7 +56370,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -56267,7 +56525,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.7,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -56619,7 +56877,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/095_PostOffice/unit_095_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -56698,7 +56959,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -56853,7 +57114,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 2.0,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -57226,7 +57487,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/096_Obelisk/unit_096_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -57305,7 +57569,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -57400,7 +57664,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When Destroyed: Deal {DamageBuff} Damage to all friendly and enemy units.",
+			"value": "When Destroyed: Deal 4 Damage to all friendly and enemy units.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -57565,7 +57829,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 4
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -57807,7 +58071,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/097_ShrapnelMine/unit_097_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -57886,7 +58153,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -58384,7 +58651,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/098_MineField/unit_098_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -58463,7 +58733,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -59043,7 +59313,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -59138,7 +59408,7 @@
 		},
 		{
 			"hint": "",
-			"value": "After the Weapon unit below this triggers, give it +{DamageBuff} Damage.",
+			"value": "After the Weapon unit below this triggers, give it +1 Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -59303,7 +59573,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 1
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -59545,7 +59815,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/100_Dynamo/unit_100_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -59624,7 +59897,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -59719,7 +59992,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat & When Destroyed: Summon {Amount} Trees on empty spaces.",
+			"value": "Start of Combat & When Destroyed: Summon 4 Trees on empty spaces.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -59884,7 +60157,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 4
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -60132,7 +60405,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/101_ElderDandelion/unit_101_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -60211,7 +60487,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -60797,7 +61073,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -60892,7 +61168,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Has +{DamageBuff} Damage and +{HealthBuff} Health for every friendly and enemy Ancient unit.",
+			"value": "Passive: Has +20 Damage and +40 Health for every friendly and enemy Ancient unit.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -60952,7 +61228,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.65,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -61059,7 +61335,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 20,
+				"HealthBuff": 40
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -61325,7 +61602,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/103_SoulEngine/unit_103_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -61404,7 +61684,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -61499,7 +61779,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Has +{HealthBuff}% Lifesteal for each friendly and enemy Nature unit.",
+			"value": "Passive: Has +5% Lifesteal for each friendly and enemy Nature unit.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -61559,7 +61839,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.4,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -61664,7 +61944,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -61914,7 +62194,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/104_Bristlecone/unit_104_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -61993,7 +62276,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -62088,7 +62371,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Adjacent Weapons gain +{HealthBuff} Lifesteal",
+			"value": "Start of Combat: Adjacent Weapons gain +7 Lifesteal",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -62253,7 +62536,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 7
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -62504,7 +62787,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/105_LatchwoodSpore/unit_105_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -62583,7 +62869,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -62678,7 +62964,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When an adjacent Tinker unit triggers, give a random friendly Weapon +{DamageBuff} Damage. Also speed up {Amount} friendly non-Tinker Town units by {SpeedBuff}%.",
+			"value": "Passive: When an adjacent Tinker unit triggers, give a random friendly Weapon +1 Damage. Also speed up 3 friendly non-Tinker Town units by 1%.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -62847,7 +63133,9 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 3,
+				"DamageBuff": 1,
+				"SpeedBuff": 1
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -63092,7 +63380,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/106_PowerPlant/unit_106_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -63171,7 +63462,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -63675,7 +63966,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/107_ToyStore/unit_107_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -63754,7 +64048,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -63909,7 +64203,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.5,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -64274,7 +64568,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/108_ToyTurret/unit_108_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -64353,7 +64650,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -64854,7 +65151,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/109_BeeKeeper/unit_109_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -64933,7 +65233,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -65028,7 +65328,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: After friendly Town units trigger {Amount} times, your non-Town units gain +{Buff}% of their own base Health and Damage.",
+			"value": "Passive: After friendly Town units trigger 25 times, your non-Town units gain +3% of their own base Health and Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -65195,7 +65495,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 25,
+				"Buff": 3
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -65440,7 +65741,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/110_Schola/unit_110_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -65519,7 +65823,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -65674,7 +65978,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.0,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -66099,7 +66403,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -66194,7 +66498,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Adjacent Buffer Bots absorb {Amount} extra hit. (only shows up when you have a Buffer Bot)",
+			"value": "Start of Combat: Adjacent Buffer Bots absorb 1 extra hit. (only shows up when you have a Buffer Bot)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -66361,7 +66665,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 1
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -66603,7 +66907,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/112_BotBuffer/unit_112_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -66682,7 +66989,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -66839,7 +67146,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 5.5,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -67198,7 +67505,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/113_ToyProduction/unit_113_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -67277,7 +67587,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -67372,7 +67682,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Give a random friendly Magic +{HealthBuff} Health for every Enchantment on your island and give a random adjacent Town unit a random Enchantment.",
+			"value": "Give a random friendly Magic +1 Health for every Enchantment on your island and give a random adjacent Town unit a random Enchantment.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -67432,7 +67742,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.8,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -67537,7 +67847,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 1
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -67788,7 +68098,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/114_TaronEnchanter/unit_114_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -67867,7 +68180,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -67962,7 +68275,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Adjacent Town units take {DamageNerf}% less Damage from Explosive, Stun and Pierce (doesn't stack). When they take Damage, this takes the Damage instead.",
+			"value": "Passive: Adjacent Town units take 50% less Damage from Explosive, Stun and Pierce (doesn't stack). When they take Damage, this takes the Damage instead.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -68127,7 +68440,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageNerf": 50
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -68372,7 +68685,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/115_Shelter/unit_115_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -68451,7 +68767,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -68546,7 +68862,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: All adjacent units that are smaller than this get {SpeedBuff}% Speed, units that are bigger gain +{HealthBuff}% Health, and unit that are the same size get both.",
+			"value": "Start of Combat: All adjacent units that are smaller than this get 10% Speed, units that are bigger gain +30% Health, and unit that are the same size get both.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -68713,7 +69029,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 30,
+				"SpeedBuff": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -68958,7 +69275,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/116_BlindPriestess/unit_116_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -69037,7 +69357,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -69132,7 +69452,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When Destroyed: Deals Damage to the closest Enemy unit equal to {HealthNerf}% of its Health.",
+			"value": "When Destroyed: Deals Damage to the closest Enemy unit equal to 50% of its Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -69297,7 +69617,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthNerf": 50
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -69539,7 +69859,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/117_HauntedMine/unit_117_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -69618,7 +69941,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -69713,7 +70036,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When an Enemy unit gets destroyed, {Amount}% chance to summon a friendly Haunted Mine at that position. Enemy Weapons will target the mines.",
+			"value": "Passive: When an Enemy unit gets destroyed, 10% chance to summon a friendly Haunted Mine at that position. Enemy Weapons will target the mines.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -69878,7 +70201,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -70120,7 +70443,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/118_GraveKeeper/unit_118_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -70199,7 +70525,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -70294,7 +70620,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Give all adjacent units +{HealthBuff} Health. After {Time} seconds, grow in {Amount} random directions ({Generation} times max, does not spread Enchants)",
+			"value": "Start of Combat: Give all adjacent units +5 Health. After 3.5 seconds, grow in 2 random directions (3 times max, does not spread Enchants)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -70354,7 +70680,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.75,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -70465,7 +70791,10 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 2,
+				"Generation": 3,
+				"HealthBuff": 5,
+				"Time": 3.5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -70707,7 +71036,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/119_Creeproot/unit_119_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -70786,7 +71118,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -71363,7 +71695,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -71864,7 +72196,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/121_ManaRefinerium/unit_121_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -71943,7 +72278,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -72520,7 +72855,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -72615,7 +72950,7 @@
 		},
 		{
 			"hint": "",
-			"value": "On Trigger: Gain +{DamageBuff} Damage. Move {Amount} Damage from this unit to another random friendly Weapon.",
+			"value": "On Trigger: Gain +2 Damage. Move 5 Damage from this unit to another random friendly Weapon.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -72675,7 +73010,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.8,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -72782,7 +73117,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 5,
+				"DamageBuff": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -73030,7 +73366,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/123_SolarisSaber/unit_123_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -73109,7 +73448,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -73204,7 +73543,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Give a random Enemy Weapon -{HealthNerf} Lifesteal (the Weapon takes Damage on trigger)",
+			"value": "Give a random Enemy Weapon -5 Lifesteal (the Weapon takes Damage on trigger)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -73264,7 +73603,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 3.25,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -73369,7 +73708,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthNerf": 5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -73614,7 +73953,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/124_CloakedWitch/unit_124_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -73693,7 +74035,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -73788,7 +74130,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Permanently change this unit's Enchantments into different ones. On trigger: Gain +{HealthLow} Health. If this has an enchantment, remove it and gain +{HealthHigh} Health.",
+			"value": "Start of Combat: Permanently change this unit's Enchantments into different ones. On trigger: Gain +10 Health. If this has an enchantment, remove it and gain +30 Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -73848,7 +74190,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.25,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -73955,7 +74297,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthHigh": 30,
+				"HealthLow": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -74200,7 +74543,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/125_EnchantWeaver/unit_125_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -74279,7 +74625,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -74374,7 +74720,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Targets random enemy units. When a friendly unit gets destroyed, attack and lose -{HealthNerf} Health. When a friendly unit gets summoned, gain +{HealthBuff} Health and +{DamageBuff} Damage. (Can't get other damage buffs)",
+			"value": "Passive: Targets random enemy units. When a friendly unit gets destroyed, attack and lose -20 Health. When a friendly unit gets summoned, gain +20 Health and +1 Damage. (Can't get other damage buffs)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -74543,7 +74889,9 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 1,
+				"HealthBuff": 20,
+				"HealthNerf": 20
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -74793,7 +75141,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/126_AncestralKeep/unit_126_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -74872,7 +75223,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -74967,7 +75318,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When you summon a friendly unit, give it +{HealthBuff} Health.",
+			"value": "Passive: When you summon a friendly unit, give it +10 Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -75132,7 +75483,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -75377,7 +75728,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/127_NurturingSprite/unit_127_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -75456,7 +75810,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -75954,7 +76308,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/128_GrandCanopy/unit_128_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -76033,7 +76390,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -76128,7 +76485,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Destroy this unit and the unit right above this. Stun {Amount} enemy Tinker units for 1s.",
+			"value": "Start of Combat: Destroy this unit and the unit right above this. Stun 3 enemy Tinker units for 1s.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -76293,7 +76650,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 3
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -76535,7 +76892,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/129_ExplosionDevice300/unit_129_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -76614,7 +76974,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -76709,7 +77069,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Takes {DefenseBuff}% less Damage for each adjacent Stone Column.\n(only shows up when you have a Jefferson)",
+			"value": "Passive: Takes 10% less Damage for each adjacent Stone Column.\n(only shows up when you have a Jefferson)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -76876,7 +77236,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DefenseBuff": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -77118,7 +77478,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/130_StoneColumn/unit_130_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -77197,7 +77560,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -77354,7 +77717,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.9,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -77697,7 +78060,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/131_Jefferson/unit_131_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -77776,7 +78142,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -77871,7 +78237,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Gain +{DamageBuffLeft} Damage for each unit to the left of this (in a straight line). When a unit to the right gets Destroyed, this unit gains +{DamageBuffRight} Damage.",
+			"value": "Start of Combat: Gain +10 Damage for each unit to the left of this (in a straight line). When a unit to the right gets Destroyed, this unit gains +10 Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -77931,7 +78297,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.6,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -78038,7 +78404,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuffLeft": 10,
+				"DamageBuffRight": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -78294,7 +78661,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/132_Magnitudon/unit_132_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -78373,7 +78743,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -78468,7 +78838,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When the enemy summons a unit, steal {HealthBuff} Health from it. (leaves units at 1 Health instead of destroying them)",
+			"value": "Passive: When the enemy summons a unit, steal 10 Health from it. (leaves units at 1 Health instead of destroying them)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -78633,7 +79003,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -78878,7 +79248,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/133_Furarium/unit_133_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -78957,7 +79330,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -79458,7 +79831,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/134_Transferon/unit_134_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -79537,7 +79913,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -79632,7 +80008,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: If you occupy less space than the enemy, give your Weapons +{DamageBuff} Damage for each tile you have less. If more, give your Defense units +{HealthBuff} Health for each tile you have more.",
+			"value": "Start of Combat: If you occupy less space than the enemy, give your Weapons +0.5 Damage for each tile you have less. If more, give your Defense units +2 Health for each tile you have more.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -79799,7 +80175,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 0.5,
+				"HealthBuff": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -80044,7 +80421,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/135_Aequaliser/unit_135_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -80123,7 +80503,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -80218,7 +80598,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Adjacent Infinity Pools spread +{HealthBuff}% extra Health\n(only shows up when you have an Infinity Pool)",
+			"value": "Start of Combat: Adjacent Infinity Pools spread +10% extra Health\n(only shows up when you have an Infinity Pool)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -80385,7 +80765,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -80630,7 +81010,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/136_SpiritFisher/unit_136_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -80709,7 +81092,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -80804,7 +81187,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When any unit gets destroyed, gain +{HealthBuff} Health for each Enchantment it had.",
+			"value": "Passive: When any unit gets destroyed, gain +20 Health for each Enchantment it had.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -80969,7 +81352,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 20
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -81214,7 +81597,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/137_SpellEater/unit_137_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -81293,7 +81679,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -81388,7 +81774,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: All your Jeffreys and Jeffersons trigger {SpeedBuff}% faster. Whenever a friendly Defense unit gets destroyed, this attacks.\n(only shows up when you have a Jefferson)",
+			"value": "Start of Combat: All your Jeffreys and Jeffersons trigger 10% faster. Whenever a friendly Defense unit gets destroyed, this attacks.\n(only shows up when you have a Jefferson)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -81450,7 +81836,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.0,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -81555,7 +81941,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"SpeedBuff": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -81821,7 +82207,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/138_Jeff/unit_138_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -81900,7 +82289,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -81995,7 +82384,7 @@
 		},
 		{
 			"hint": "",
-			"value": "On Trigger: Double this cooldown and get +1 Charge. After {Amount} Charges, trigger all other friendly units (that are not Solo) and reset back to 0.",
+			"value": "On Trigger: Double this cooldown and get +1 Charge. After 5 Charges, trigger all other friendly units (that are not Solo) and reset back to 0.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -82055,7 +82444,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.45,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -82160,7 +82549,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -82405,7 +82794,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/139_DoomsdayDial/unit_139_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -82484,7 +82876,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -82579,7 +82971,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When an adjacent unit gets stunned, this gets stunned instead and takes {DamageNerf} Damage.",
+			"value": "Passive: When an adjacent unit gets stunned, this gets stunned instead and takes 10 Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -82744,7 +83136,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageNerf": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -82986,7 +83378,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/140_AntiStun4/unit_140_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -83065,7 +83460,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -83160,7 +83555,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Divide a {SpeedBuff}% speed buff between all adjacent units.",
+			"value": "Divide a 4% speed buff between all adjacent units.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -83220,7 +83615,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.0,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -83325,7 +83720,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"SpeedBuff": 4
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -83570,7 +83965,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/141_CogworkTower/unit_141_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -83649,7 +84047,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -83744,7 +84142,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Takes {DamageNerf}% less damage when in Fatigue.",
+			"value": "Takes 60% less damage when in Fatigue.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -83909,7 +84307,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageNerf": 60
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -84151,7 +84549,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/142_EntombedDread/unit_142_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -84230,7 +84631,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -84728,7 +85129,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/143_SprawlingFossil/unit_143_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -84807,7 +85211,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -85313,7 +85717,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/144_Weaponizor/unit_144_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -85392,7 +85799,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -85487,7 +85894,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Give a random friendly pierce Weapon +{PierceBuff}% Pierce and +{DamageBuff} Damage.",
+			"value": "Give a random friendly pierce Weapon +1% Pierce and +1 Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -85552,7 +85959,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.05,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -85659,7 +86066,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 1,
+				"PierceBuff": 1
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -85901,7 +86309,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/145_SparkSupplier/unit_145_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -85980,7 +86391,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -86101,7 +86512,7 @@
 		},
 		{
 			"hint": "1.0,6.0",
-			"value": 3,
+			"value": 2,
 			"var": "Rarity",
 			"var_type": "int"
 		},
@@ -86480,7 +86891,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/146_ExtraVoltage/unit_146_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -86559,7 +86973,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -86654,7 +87068,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Give adjacent Conjured Clocks +{Amount} triggers.\n(only shows up when you have a Conjured Clock)",
+			"value": "Start of Combat: Give adjacent Conjured Clocks +10 triggers.\n(only shows up when you have a Conjured Clock)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -86821,7 +87235,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -87063,7 +87477,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/147_Holomancer/unit_147_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -87142,7 +87559,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -87237,7 +87654,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When Destroyed: Give adjacent Rafflesias +{HealthBuff} Health.\n(only shows up when you have a Rafflesia)",
+			"value": "When Destroyed: Give adjacent Rafflesias +100 Health.\n(only shows up when you have a Rafflesia)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -87404,7 +87821,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 100
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -87646,7 +88063,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/148_TinyRafflesia/unit_148_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -87725,7 +88145,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -87882,7 +88302,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 2.75,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -88225,7 +88645,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/149_BellRinger/unit_149_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -88304,7 +88727,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -88399,7 +88822,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When an adjacent Prismatic Mirror or Prismatic Shard takes Damage, shoot {DamageBuff}% of the Damage back.\r\n(only shows up when you have a Prismatic Mirror)",
+			"value": "Passive: When an adjacent Prismatic Mirror or Prismatic Shard takes Damage, shoot 10% of the Damage back.\r\n(only shows up when you have a Prismatic Mirror)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -88566,7 +88989,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -88811,7 +89234,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/150_PrismaticShard/unit_150_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -88890,7 +89316,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -88985,7 +89411,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: All Dynamos directly beneath this unit give a +{DamageBuff} Damage Buff.\r\n(only shows up when you have a Dynamo)",
+			"value": "Start of Combat: All Dynamos directly beneath this unit give a +2 Damage Buff.\r\n(only shows up when you have a Dynamo)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -89144,7 +89570,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				1.0
+				2.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -89152,7 +89578,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -89394,7 +89820,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/151_MiniTurbine/unit_151_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -89473,7 +89902,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -89568,7 +89997,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: After {Amount} friendly Nature units are destroyed, summon a Tree on an empty space.\n(only shows up when you have an Elder Dandelion)",
+			"value": "Passive: After 5 friendly Nature units are destroyed, summon a Tree on an empty space.\n(only shows up when you have an Elder Dandelion)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -89727,7 +90156,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				4.0
+				5.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -89735,7 +90164,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -89980,7 +90409,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/152_ElderTigerLily/unit_152_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -90059,7 +90491,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -90154,7 +90586,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: When adjacent Bee Keeper activates, deal {DamageBuff} Damage to an enemy non-Nature unit. (only shows up when you have a Bee Keeper)",
+			"value": "Start of Combat: When adjacent Bee Keeper activates, deal 1 Damage to an enemy non-Nature unit. (only shows up when you have a Bee Keeper)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -90321,7 +90753,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 1
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -90563,7 +90995,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/153_BeeHive/unit_153_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -90642,7 +91077,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -90737,7 +91172,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When an adjacent Town unit triggers, deal {DamageBuff} Damage to a random enemy Town unit.",
+			"value": "Passive: When an adjacent Town unit triggers, deal 3 Damage to a random enemy Town unit.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -90902,7 +91337,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 3
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -91147,7 +91582,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/154_Pyromancer/unit_154_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -91226,7 +91664,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -91321,7 +91759,7 @@
 		},
 		{
 			"hint": "",
-			"value": "On Trigger: After this attacks the same target at least twice, gain +{LifeStealBuff} Lifesteal.",
+			"value": "On Trigger: After this attacks the same target at least twice, gain +2 Lifesteal.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -91381,7 +91819,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 0.5,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -91486,7 +91924,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"LifeStealBuff": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -91755,7 +92193,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/155_ThornThruster/unit_155_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -91834,7 +92275,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -92332,7 +92773,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/156_SmallCrate/unit_156_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -92411,7 +92855,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -92909,7 +93353,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/157_MediumCrate/unit_157_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -92988,7 +93435,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -93486,7 +93933,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/158_LargeCrate/unit_158_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -93565,7 +94015,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -94063,7 +94513,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/159_GiantCrate/unit_159_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -94142,7 +94595,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -94237,7 +94690,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When an enemy Weapon attacks, adjacent Town units get +{HealthBuff} Health.",
+			"value": "Passive: When an enemy Weapon attacks, adjacent Town units get +1 Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -94402,7 +94855,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 1
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -94647,7 +95100,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/160_Carpenter/unit_160_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -94726,7 +95182,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -94821,7 +95277,7 @@
 		},
 		{
 			"hint": "",
-			"value": "On Trigger: All Defense units to the right of this gain +{HealthBuff} Health.",
+			"value": "On Trigger: All Defense units to the right of this gain +10 Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -94881,7 +95337,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.3,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -94986,7 +95442,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -95231,7 +95687,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/161_Excubitor/unit_161_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -95310,7 +95769,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -95405,7 +95864,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Deal {DamageBuff} Damage to an enemy Nature Defense unit and lose {HealthNerf} Health.",
+			"value": "Deal 100 Damage to an enemy Nature Defense unit and lose 40 Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -95465,7 +95924,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.6,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -95572,7 +96031,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 100,
+				"HealthNerf": 40
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -95814,7 +96274,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/162_Muncher/unit_162_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -95893,7 +96356,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -95988,7 +96451,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Trigger this.\nOn Trigger: An enemy explosive and pierce weapon lose {EffectNerf}% explosive and pierce.",
+			"value": "Start of Combat: Trigger this.\nOn Trigger: An enemy explosive and pierce weapon lose 5% explosive and pierce.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -96048,7 +96511,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 3.0,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -96153,7 +96616,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"EffectNerf": 5
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -96398,7 +96861,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/163_SuppressorRod/unit_163_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -96477,7 +96943,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -96572,7 +97038,7 @@
 		},
 		{
 			"hint": "",
-			"value": "On trigger: Gain +{HealthBuff} Health.\nPassive: When an adjacent unit speeds up, increase this buff by +{Amount}.",
+			"value": "On trigger: Gain +20 Health.\nPassive: When an adjacent unit speeds up, increase this buff by +2.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -96632,7 +97098,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.0,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -96739,7 +97205,8 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 2,
+				"HealthBuff": 20
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -96984,7 +97451,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/164_Emergus/unit_164_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -97063,7 +97533,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -97323,7 +97793,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 50
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -97568,7 +98038,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/165_Hole/unit_165_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -97647,7 +98120,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -97742,7 +98215,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When this takes damage, slow down the source by {Amount}s.",
+			"value": "Passive: When this takes damage, slow down the source by 0.05s.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -97907,7 +98380,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"Amount": 0.05
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -98152,7 +98625,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/166_SlothTotem/unit_166_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -98231,7 +98707,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -98326,7 +98802,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Adjacent Crystals can now target adjacent units 1 tile further.",
+			"value": "Passive: Adjacent Crystals (that are not Topaz) can now target adjacent units 1 tile further.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -98745,7 +99221,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/167_CrystalTopaz/unit_167_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -98824,7 +99303,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -98979,7 +99458,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 2.0,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -99325,7 +99804,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/168_PowerCell/unit_168_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -99404,7 +99886,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -99499,7 +99981,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Add {HealthBuff}% of any Health gained onto every other friendly Vinculi. When you buy a Vinculi, get a copy.",
+			"value": "Passive: Add 50% of any Health gained onto every other friendly Vinculi. When you buy a Vinculi, get a copy.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -99664,7 +100146,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 50
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -99909,7 +100391,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/169_Vinculi/unit_169_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -99988,7 +100473,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
@@ -100083,7 +100568,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Give a random friendly Weapon +{DamageBuff} Damage for each adjacent Production.",
+			"value": "Give a random friendly Weapon +2 Damage for each adjacent Production.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -100143,7 +100628,7 @@
 		},
 		{
 			"hint": "",
-			"value": 0.0,
+			"value": 1.5,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -100248,7 +100733,7 @@
 		{
 			"hint": "",
 			"value": {
-
+				"DamageBuff": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -100496,7 +100981,10 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/170_Efficio/unit_170_custom_logic.gd",
+				"type": "GDScript"
+			},
 			"var": "ProcessScript",
 			"var_type": "Object"
 		},
@@ -100575,7 +101063,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InitDone",
 			"var_type": "bool"
 		},
