@@ -1,5 +1,14 @@
 {
-	"DataFiles": {
+	"counts": {
+		"enchantments": 22,
+		"encounters": 51,
+		"game_modes": 12,
+		"heroes": 3,
+		"quests": 15,
+		"tips": 34,
+		"units": 171
+	},
+	"files": {
 		"catalog": "catalog_data.JSON",
 		"enchantments": "enchantment_data.JSON",
 		"encounters": "encounter_data.JSON",
@@ -10,5 +19,6 @@
 		"tips": "tip_data.JSON",
 		"units": "unit_data.JSON"
 	},
-	"Patch": "1.0.1"
+	"schema": "skyshard_script_property_list",
+	"schema_version": 2
 }

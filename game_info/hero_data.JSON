@@ -1,0 +1,518 @@
+[
+	[
+		{
+			"hint": "res://components/resources/hero_data.gd",
+			"value": null,
+			"var": "hero_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "ZapZap",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Zapzap/000_Zapzap_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Zapzap/000_Zapzap.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "SpriteNoBG",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Zapzap/zapzap-cursor.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "MouseCursor",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Zapzap/zapzap-cursor-click.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "MouseCursorClick",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Zapzap/Icon zapzap.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/islands/000_ZapZap_Island.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Island",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/islands/000_ZapZap_Island_Flipped.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IslandFlipped",
+			"var_type": "Object"
+		},
+		{
+			"hint": "PackedScene",
+			"value": {
+				"path": "res://UI/scenes/zapzap-quest-ui.tscn",
+				"type": "PackedScene"
+			},
+			"var": "QuestMenu",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": "Zapzap is a frog.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "24/17:Quest",
+			"value": [
+				{
+					"id": 1,
+					"name": "Overgrowth",
+					"path": "res://heroes/quests/000_ZapZap/001_ZapZap_Quest.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 2,
+					"name": "Thriving Trees",
+					"path": "res://heroes/quests/000_ZapZap/002_ZapZap_Quest.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 3,
+					"name": "Green Thumbs",
+					"path": "res://heroes/quests/000_ZapZap/003_ZapZap_Quest.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 4,
+					"name": "Sporadic Support",
+					"path": "res://heroes/quests/000_ZapZap/004_ZapZap_Quest.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 5,
+					"name": "Mining Expedition",
+					"path": "res://heroes/quests/000_ZapZap/005_ZapZap_Quest.tres",
+					"type": "Resource"
+				}
+			],
+			"var": "Quests",
+			"var_type": "Array"
+		},
+		{
+			"hint": "24/17:Encounter",
+			"value": [
+				{
+					"id": 2,
+					"name": "Sprouting",
+					"path": "res://encounters/Resources/encounter_002.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 17,
+					"name": "Nature",
+					"path": "res://encounters/Resources/encounter_017.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 29,
+					"name": "Nature",
+					"path": "res://encounters/Resources/encounter_029.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 38,
+					"name": "Nature",
+					"path": "res://encounters/Resources/encounter_038.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 40,
+					"name": "Nature's Aid",
+					"path": "res://encounters/Resources/encounter_040.tres",
+					"type": "Resource"
+				}
+			],
+			"var": "BoostedEncounters",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_data.gd",
+			"value": null,
+			"var": "hero_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Auris",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Auris/001_Auris_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Auris/001_Auris.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "SpriteNoBG",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Auris/auris-cursor.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "MouseCursor",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Auris/auris-cursor-click.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "MouseCursorClick",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Auris/Icon auris.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/islands/001_Auris_Island.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Island",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/islands/001_Auris_Island_Flipped.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IslandFlipped",
+			"var_type": "Object"
+		},
+		{
+			"hint": "PackedScene",
+			"value": {
+				"path": "res://UI/scenes/auris-quest-ui.tscn",
+				"type": "PackedScene"
+			},
+			"var": "QuestMenu",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": "Auris is as powerful as she is elegant, seeking to bring the world into a new era of advancement and enlightenment. ",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "24/17:Quest",
+			"value": [
+				{
+					"id": 6,
+					"name": "Headstart",
+					"path": "res://heroes/quests/001_Auris/006_Auris_Quest.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 7,
+					"name": "Investments",
+					"path": "res://heroes/quests/001_Auris/007_Auris_Quest.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 8,
+					"name": "Grand Collector",
+					"path": "res://heroes/quests/001_Auris/008_Auris_Quest.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 9,
+					"name": "Mini Replicator",
+					"path": "res://heroes/quests/001_Auris/009_Auris_Quest.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 10,
+					"name": "Maxi Replicator",
+					"path": "res://heroes/quests/001_Auris/010_Auris_Quest.tres",
+					"type": "Resource"
+				}
+			],
+			"var": "Quests",
+			"var_type": "Array"
+		},
+		{
+			"hint": "24/17:Encounter",
+			"value": [
+				{
+					"id": 15,
+					"name": "Random Novus",
+					"path": "res://encounters/Resources/encounter_015.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 26,
+					"name": "Novus",
+					"path": "res://encounters/Resources/encounter_026.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 36,
+					"name": "Novus",
+					"path": "res://encounters/Resources/encounter_036.tres",
+					"type": "Resource"
+				}
+			],
+			"var": "BoostedEncounters",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_data.gd",
+			"value": null,
+			"var": "hero_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 2,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Ambrose",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Ambrose/002_Ambrose_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Ambrose/002_Ambrose.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "SpriteNoBG",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Ambrose/Ambrose-cursor.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "MouseCursor",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Ambrose/Ambrose-cursor-click.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "MouseCursorClick",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Ambrose/Icon ambrose.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/islands/002_Ambrose_Island.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Island",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/islands/002_Ambrose_Island_Flipped.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IslandFlipped",
+			"var_type": "Object"
+		},
+		{
+			"hint": "PackedScene",
+			"value": {
+				"path": "res://UI/scenes/ambrose-quest-ui.tscn",
+				"type": "PackedScene"
+			},
+			"var": "QuestMenu",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": "Ambrose has never lost an election, and only some people think he stole them with magically conjured ballots!",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "24/17:Quest",
+			"value": [
+				{
+					"id": 11,
+					"name": "Rapid Expansion",
+					"path": "res://heroes/quests/002_Ambrose/011_Ambrose_Quest.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 12,
+					"name": "Settle Down",
+					"path": "res://heroes/quests/002_Ambrose/012_Ambrose_Quest.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 13,
+					"name": "Infrastructure",
+					"path": "res://heroes/quests/002_Ambrose/013_Ambrose_Quest.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 14,
+					"name": "Strength in Numbers",
+					"path": "res://heroes/quests/002_Ambrose/014_Ambrose_Quest.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 15,
+					"name": "Protectors",
+					"path": "res://heroes/quests/002_Ambrose/015_Ambrose_Quest.tres",
+					"type": "Resource"
+				}
+			],
+			"var": "Quests",
+			"var_type": "Array"
+		},
+		{
+			"hint": "24/17:Encounter",
+			"value": [
+				{
+					"id": 1,
+					"name": "Random House",
+					"path": "res://encounters/Resources/encounter_001.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 4,
+					"name": "Housing",
+					"path": "res://encounters/Resources/encounter_004.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 13,
+					"name": "Housing XL",
+					"path": "res://encounters/Resources/encounter_013.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 39,
+					"name": "Housing",
+					"path": "res://encounters/Resources/encounter_039.tres",
+					"type": "Resource"
+				}
+			],
+			"var": "BoostedEncounters",
+			"var_type": "Array"
+		}
+	]
+]

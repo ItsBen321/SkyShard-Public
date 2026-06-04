@@ -1,0 +1,206 @@
+[
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 1,
+		"text": "The Nature Faction is all about Healing and supporting your island."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 2,
+		"text": "The Tinker Faction is all about quick triggers, but can easily backfire."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 3,
+		"text": "The Magic Faction is all about buffs and spreading stats around."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 4,
+		"text": "The Novus Faction is all about innovation and flexibility, it'll scale on any island."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 5,
+		"text": "The Ancient Faction is all about destruction and sacrifice, but very powerful."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 6,
+		"text": "The Town Role is all about scaling up and expanding the strength of your island."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 7,
+		"text": "The Production Role is all about value, get them as early as possible."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 8,
+		"text": "The Solo Type is for units that have powerful trigger effects, they can never target each other."
+	},
+	{
+		"group": "Intermediate",
+		"group_value": 1,
+		"id": 9,
+		"text": "Wins are more important than rounds for your Rating. The higher you climb, the less you'll get!"
+	},
+	{
+		"group": "Intermediate",
+		"group_value": 1,
+		"id": 10,
+		"text": "Units can only have their speed reduced by half. A unit with a trigger speed of 2 seconds can't go below 1 second."
+	},
+	{
+		"group": "Intermediate",
+		"group_value": 1,
+		"id": 11,
+		"text": "Finding multiple copies of the same unit gets harder and harder, especially on higher tiers."
+	},
+	{
+		"group": "Advanced",
+		"group_value": 2,
+		"id": 12,
+		"text": "Holding spacebar shows some extra useful information, hovering over the UI will highlight those units."
+	},
+	{
+		"group": "Intermediate",
+		"group_value": 1,
+		"id": 13,
+		"text": "Hovering a weapon will highlight its target, you can also hover units in the combat log."
+	},
+	{
+		"group": "Advanced",
+		"group_value": 2,
+		"id": 14,
+		"text": "Start of combat triggers from left to right, then up to down."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 15,
+		"text": "You can move units from your island to your inventory by right clicking them."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 16,
+		"text": "You can't win every round or survive every run. Good players make the most of a bad run."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 17,
+		"text": "Don't like your encounters? Selecting a 1-cost encounter is a cheap way to reroll while still developing your island."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 18,
+		"text": "Adjacent units include those on the corners. Hover over any unit to see which tiles it affects."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 19,
+		"text": "Explosive damage is dealt as a percentage of the original damage to all units adjacent to the primary target."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 20,
+		"text": "Pierce damage is dealt as a percentage of the original damage to a single unit directly behind the primary target."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 21,
+		"text": "Stuns all have a duration, which you can always find in the unit details panel."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 22,
+		"text": "After losing a battle, you take 1 point of damage for every tile that's occupied by an enemy unit. In other words, bigger units hurt!"
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 23,
+		"text": "The Fatigue Wizard appears after 40 seconds in order to end fights that have dragged on for too long."
+	},
+	{
+		"group": "Intermediate",
+		"group_value": 1,
+		"id": 24,
+		"text": "Lifesteal effects can add to a unit's max health, not just restore any missing health."
+	},
+	{
+		"group": "Intermediate",
+		"group_value": 1,
+		"id": 25,
+		"text": "Buying certain units will unlock follow-up units in future encounters."
+	},
+	{
+		"group": "Intermediate",
+		"group_value": 1,
+		"id": 26,
+		"text": "Encounters have different rarities based on the number of unit options they offer. Epic encounters glow purple and offer a choice of 6."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 27,
+		"text": "Enchantments can be removed from units and placed on a new unit at any time. Just click them to add them back into your inventory."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 28,
+		"text": "Units fit into four different tag categories: Tier, Faction, Role, and Type."
+	},
+	{
+		"group": "Intermediate",
+		"group_value": 1,
+		"id": 29,
+		"text": "Weapons have three different projectile speeds, Slow, Medium, and Fast. Slower weapons might miss their target if it's destroyed before the projectile arrives!"
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 30,
+		"text": "You can find a bunch of useful information (including these tips) in the Library."
+	},
+	{
+		"group": "Intermediate",
+		"group_value": 1,
+		"id": 31,
+		"text": "When a unit is resurrected, its 'Start of Combat' effect activates again."
+	},
+	{
+		"group": "Beginner",
+		"group_value": 0,
+		"id": 32,
+		"text": "Every time you buy a Weapon, it becomes less likely you'll find another. Supporting the Weapons you have is a better path to success."
+	},
+	{
+		"group": "Intermediate",
+		"group_value": 1,
+		"id": 33,
+		"text": "Right-clicking an encounter will open up the library with active filters for that shop."
+	},
+	{
+		"group": "Intermediate",
+		"group_value": 1,
+		"id": 34,
+		"text": "You can move the inventory by dragging it around. To go back, click the reset button in the top left."
+	}
+]

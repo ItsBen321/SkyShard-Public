@@ -1,0 +1,1090 @@
+[
+	[
+		{
+			"hint": "res://components/resources/hero_quest_data.gd",
+			"value": null,
+			"var": "hero_quest_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 1,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Overgrowth",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Once you have 5 nature units on your island, copy 2 random friendly nature units.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/000_ZapZap/001_ZapZap_Quest.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/000_ZapZap/001_ZapZap_Quest_brown.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IconBrown",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Metadata",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Current Nature units on board: {_Nature} / {Nature}.",
+			"var": "DisplayString",
+			"var_type": "String"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"Nature"
+			],
+			"var": "ValueName",
+			"var_type": "Array"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				5
+			],
+			"var": "Values",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_quest_data.gd",
+			"value": null,
+			"var": "hero_quest_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 2,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Thriving Trees",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Once you have 4 Trees, get an Elder Dandelion.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/000_ZapZap/002_ZapZap_Quest.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/000_ZapZap/002_ZapZap_Quest_brown.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IconBrown",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Metadata",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Current Trees on board: {_Trees} / {Trees}.",
+			"var": "DisplayString",
+			"var_type": "String"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"Trees"
+			],
+			"var": "ValueName",
+			"var_type": "Array"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				4
+			],
+			"var": "Values",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_quest_data.gd",
+			"value": null,
+			"var": "hero_quest_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 3,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Green Thumbs",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "After round 1 and 2, get an Arborist.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/000_ZapZap/003_ZapZap_Quest.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/000_ZapZap/003_ZapZap_Quest_brown.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IconBrown",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Metadata",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Current rounds survived: {_Round} / {Round}.",
+			"var": "DisplayString",
+			"var_type": "String"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"Round"
+			],
+			"var": "ValueName",
+			"var_type": "Array"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				2
+			],
+			"var": "Values",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_quest_data.gd",
+			"value": null,
+			"var": "hero_quest_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 4,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Sporadic Support",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "The first 2 Weapons you buy give you a Latchwood Spore.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/000_ZapZap/004_ZapZap_Quest.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/000_ZapZap/004_ZapZap_Quest_brown.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IconBrown",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Metadata",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Current Weapons bought: {_Weapons} / {Weapons}.",
+			"var": "DisplayString",
+			"var_type": "String"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"Weapons"
+			],
+			"var": "ValueName",
+			"var_type": "Array"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				2
+			],
+			"var": "Values",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_quest_data.gd",
+			"value": null,
+			"var": "hero_quest_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 5,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Mining Expedition",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Start with a Crystal Core. The first 3 Crystals you buy give you an extra Crystal.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/000_ZapZap/005_ZapZap_Quest.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/000_ZapZap/005_ZapZap_Quest_brown.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IconBrown",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Metadata",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Current Crystals bought: {_Crystal} / {Crystal}.",
+			"var": "DisplayString",
+			"var_type": "String"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"Crystal"
+			],
+			"var": "ValueName",
+			"var_type": "Array"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				3
+			],
+			"var": "Values",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_quest_data.gd",
+			"value": null,
+			"var": "hero_quest_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 6,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Headstart",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Start the first 3 rounds with 1 more Mana.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/001_Auris/006_Auris_Quest.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/001_Auris/006_Auris_Quest_brown.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IconBrown",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Metadata",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Current round: {_Round} / {Round}.",
+			"var": "DisplayString",
+			"var_type": "String"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"Round"
+			],
+			"var": "ValueName",
+			"var_type": "Array"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				3
+			],
+			"var": "Values",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_quest_data.gd",
+			"value": null,
+			"var": "hero_quest_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 7,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Investments",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "When you spend 20 and 50 Mana, get a Mana Machina.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/001_Auris/007_Auris_Quest.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/001_Auris/007_Auris_Quest_brown.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IconBrown",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Metadata",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Current Mana spent: {_Mana} / {Mana}.",
+			"var": "DisplayString",
+			"var_type": "String"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"Mana"
+			],
+			"var": "ValueName",
+			"var_type": "Array"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				50
+			],
+			"var": "Values",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_quest_data.gd",
+			"value": null,
+			"var": "hero_quest_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 8,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Grand Collector",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "After you buy a unit from every Tier, get a random Tier 5 unit.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/001_Auris/008_Auris_Quest.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/001_Auris/008_Auris_Quest_brown.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IconBrown",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Metadata",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Current tiers bought: {_Tier1} / {_Tier2} / {_Tier3} / {_Tier4} / {_Tier5}.",
+			"var": "DisplayString",
+			"var_type": "String"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"Tier1",
+				"Tier2",
+				"Tier3",
+				"Tier4",
+				"Tier5"
+			],
+			"var": "ValueName",
+			"var_type": "Array"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				1,
+				2,
+				3,
+				4,
+				5
+			],
+			"var": "Values",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_quest_data.gd",
+			"value": null,
+			"var": "hero_quest_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 9,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Mini Replicator",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Get a copy of the first Tier 3 unit you buy. (Can't be a Weapon)",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/001_Auris/009_Auris_Quest.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/001_Auris/009_Auris_Quest_brown.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IconBrown",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Metadata",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Current tier 3 units bought: {_Amount} / {Amount}.",
+			"var": "DisplayString",
+			"var_type": "String"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"Amount"
+			],
+			"var": "ValueName",
+			"var_type": "Array"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				1
+			],
+			"var": "Values",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_quest_data.gd",
+			"value": null,
+			"var": "hero_quest_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 10,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Maxi Replicator",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Once you have 10 units on your island, get a Replicator.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/001_Auris/010_Auris_Quest.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/001_Auris/010_Auris_Quest_brown.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IconBrown",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Metadata",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Current units: {_Amount} / {Amount}.",
+			"var": "DisplayString",
+			"var_type": "String"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"Amount"
+			],
+			"var": "ValueName",
+			"var_type": "Array"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				10
+			],
+			"var": "Values",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_quest_data.gd",
+			"value": null,
+			"var": "hero_quest_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 11,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Rapid Expansion",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "The first 3 Town units you buy give you another random Town unit (from Tier 3 or below).",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/002_Ambrose/011_Ambrose_Quest.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/002_Ambrose/011_Ambrose_Quest_brown.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IconBrown",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Metadata",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Current Town units bought: {_Town} / {Town}.",
+			"var": "DisplayString",
+			"var_type": "String"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"Town"
+			],
+			"var": "ValueName",
+			"var_type": "Array"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				3
+			],
+			"var": "Values",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_quest_data.gd",
+			"value": null,
+			"var": "hero_quest_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 12,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Settle Down",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Once you have 10 total units, get 2 random Tier 3 Town units.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/002_Ambrose/012_Ambrose_Quest.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/002_Ambrose/012_Ambrose_Quest_brown.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IconBrown",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Metadata",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Current total units: {_Amount} / {Amount}.",
+			"var": "DisplayString",
+			"var_type": "String"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"Amount"
+			],
+			"var": "ValueName",
+			"var_type": "Array"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				10
+			],
+			"var": "Values",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_quest_data.gd",
+			"value": null,
+			"var": "hero_quest_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 13,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Infrastructure",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "After round 1, get 2 Powerlines. After round 2, get a Watch Tower.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/002_Ambrose/013_Ambrose_Quest.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/002_Ambrose/013_Ambrose_Quest_brown.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IconBrown",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Metadata",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Current rounds survived: {_Round} / {Round}.",
+			"var": "DisplayString",
+			"var_type": "String"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"Round"
+			],
+			"var": "ValueName",
+			"var_type": "Array"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				2
+			],
+			"var": "Values",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_quest_data.gd",
+			"value": null,
+			"var": "hero_quest_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 14,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Strength in Numbers",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "The first 2 Weapons you buy give a Knowledge Compositum.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/002_Ambrose/014_Ambrose_Quest.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/002_Ambrose/014_Ambrose_Quest_brown.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IconBrown",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Metadata",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Current Weapons bought: {_Weapons} / {Weapons}.",
+			"var": "DisplayString",
+			"var_type": "String"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"Weapons"
+			],
+			"var": "ValueName",
+			"var_type": "Array"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				2
+			],
+			"var": "Values",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_quest_data.gd",
+			"value": null,
+			"var": "hero_quest_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 15,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Protectors",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "After you buy 4 Defense units, get a random Defense unit (of Tier 3 and higher) and 2 Jeffreys.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/002_Ambrose/015_Ambrose_Quest.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/quests/002_Ambrose/015_Ambrose_Quest_brown.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "IconBrown",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Metadata",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": "Current Defense bought: {_Defense} / {Defense}.",
+			"var": "DisplayString",
+			"var_type": "String"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"Defense"
+			],
+			"var": "ValueName",
+			"var_type": "Array"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				4
+			],
+			"var": "Values",
+			"var_type": "Array"
+		}
+	]
+]

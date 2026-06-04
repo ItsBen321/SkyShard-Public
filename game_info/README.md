@@ -1,15 +1,27 @@
 # What's in this folder
 
-## main
-This holds general info about the game. Currently:
-- Patch: the latest patch (so you can fetch from the patch_notes folder)
+`Main.json` holds the latest patch and a `DataFiles` map for the exported game-info files.
 
-## unit_data
-All the current relevant unit data. File structure:
-- One big array containing every unit
-- Every unit contains an array of its properties (dictionaries)
-- Every property holds this current information:
-  - "var": the name of the variable (example: "Name")
-  - "value": the value of the variable (example: "Cannon")
-  - "var_type": the type of the variable (example: "String")
-  - "hint": when it expects a special value (mainly for enums/categories)
+`catalog_data.JSON` describes the export schema, file names, and current item counts.
+
+## Data files
+
+- `unit_data.JSON`: all unit resources.
+- `enchantment_data.JSON`: all enchantment resources.
+- `encounter_data.JSON`: all encounter resources.
+- `hero_data.JSON`: all hero resources.
+- `quest_data.JSON`: hero quest data referenced by heroes.
+- `game_mode_data.JSON`: ranked, unrated, solo, challenge, and tutorial mode resources.
+- `tip_data.JSON`: library/gameplay tips.
+
+## Resource file structure
+
+Most data files use the same structure:
+
+- One big array containing every resource in that category.
+- Every resource contains an array of its properties.
+- Every property is a dictionary with:
+  - `var`: the variable name, for example `Name`.
+  - `value`: the exported value.
+  - `var_type`: the Godot/GDScript type name.
+  - `hint`: enum/range/resource hint metadata when Godot exposes it.
