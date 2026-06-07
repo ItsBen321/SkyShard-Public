@@ -7204,7 +7204,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Adjacent units trigger 5% faster.",
+			"value": "Passive: Adjacent units trigger 3% faster.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -7361,7 +7361,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				5.0
+				3.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -7369,7 +7369,7 @@
 		{
 			"hint": "",
 			"value": {
-				"Buff": 5
+				"Buff": 3
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -7800,7 +7800,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Adjacent units have +30 Health.",
+			"value": "Passive: Adjacent units have +15 Health.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -7957,7 +7957,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				30.0
+				15.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -7965,7 +7965,7 @@
 		{
 			"hint": "",
 			"value": {
-				"Buff": 30
+				"Buff": 15
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -10800,7 +10800,7 @@
 		},
 		{
 			"hint": "",
-			"value": 400.0,
+			"value": 500.0,
 			"var": "Health",
 			"var_type": "float"
 		},
@@ -11393,7 +11393,7 @@
 		},
 		{
 			"hint": "",
-			"value": 380.0,
+			"value": 500.0,
 			"var": "Health",
 			"var_type": "float"
 		},
@@ -11977,7 +11977,7 @@
 		},
 		{
 			"hint": "1.0,6.0",
-			"value": 3,
+			"value": 4,
 			"var": "Rarity",
 			"var_type": "int"
 		},
@@ -12567,7 +12567,7 @@
 		},
 		{
 			"hint": "1.0,6.0",
-			"value": 3,
+			"value": 4,
 			"var": "Rarity",
 			"var_type": "int"
 		},
@@ -13157,7 +13157,7 @@
 		},
 		{
 			"hint": "1.0,6.0",
-			"value": 3,
+			"value": 4,
 			"var": "Rarity",
 			"var_type": "int"
 		},
@@ -14934,7 +14934,7 @@
 		},
 		{
 			"hint": "",
-			"value": 140.0,
+			"value": 300.0,
 			"var": "Health",
 			"var_type": "float"
 		},
@@ -20895,7 +20895,7 @@
 		},
 		{
 			"hint": "",
-			"value": 60.0,
+			"value": 50.0,
 			"var": "Health",
 			"var_type": "float"
 		},
@@ -39280,7 +39280,7 @@
 		},
 		{
 			"hint": "",
-			"value": 250.0,
+			"value": 350.0,
 			"var": "Health",
 			"var_type": "float"
 		},
@@ -41065,7 +41065,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Gain +20 Health for each enemy Weapon.",
+			"value": "Start of Combat: Gain +15 Health for each enemy Weapon.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -41095,7 +41095,7 @@
 		},
 		{
 			"hint": "",
-			"value": 50.0,
+			"value": 30.0,
 			"var": "Health",
 			"var_type": "float"
 		},
@@ -41222,7 +41222,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				20.0
+				15.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -41230,7 +41230,7 @@
 		{
 			"hint": "",
 			"value": {
-				"HealthBuff": 20
+				"HealthBuff": 15
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -41685,7 +41685,7 @@
 		},
 		{
 			"hint": "1.0,6.0",
-			"value": 2,
+			"value": 1,
 			"var": "Rarity",
 			"var_type": "int"
 		},
@@ -49381,7 +49381,7 @@
 		},
 		{
 			"hint": "",
-			"value": 550.0,
+			"value": 600.0,
 			"var": "Health",
 			"var_type": "float"
 		},
@@ -51765,7 +51765,7 @@
 		},
 		{
 			"hint": "",
-			"value": 270.0,
+			"value": 300.0,
 			"var": "Health",
 			"var_type": "float"
 		},
@@ -59432,7 +59432,7 @@
 		},
 		{
 			"hint": "1.0,6.0",
-			"value": 2,
+			"value": 1,
 			"var": "Rarity",
 			"var_type": "int"
 		},
@@ -65328,7 +65328,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: After friendly Town units trigger 25 times, your non-Town units gain +3% of their own base Health and Damage.",
+			"value": "Passive: After friendly Town units trigger 30 times, your non-Town units gain +3% of their own base Health and Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -65486,7 +65486,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				25.0,
+				30.0,
 				3.0
 			],
 			"var": "Values",
@@ -65495,7 +65495,7 @@
 		{
 			"hint": "",
 			"value": {
-				"Amount": 25,
+				"Amount": 30,
 				"Buff": 3
 			},
 			"var": "CustomValues",
@@ -68868,7 +68868,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -69458,7 +69458,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -70042,7 +70042,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -70626,7 +70626,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -71796,7 +71796,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -72379,7 +72379,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -72956,7 +72956,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -73549,7 +73549,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -74136,7 +74136,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -74726,7 +74726,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -75324,7 +75324,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -75911,7 +75911,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -76491,7 +76491,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -77075,7 +77075,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -77661,7 +77661,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -78243,7 +78243,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -78844,7 +78844,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -79431,7 +79431,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -80014,7 +80014,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -80604,7 +80604,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -81193,7 +81193,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -81780,7 +81780,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -82390,7 +82390,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -82977,7 +82977,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -83561,7 +83561,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -84148,7 +84148,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -84732,7 +84732,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -85312,7 +85312,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -85900,7 +85900,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -86492,7 +86492,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -87074,7 +87074,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -87660,7 +87660,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -88246,7 +88246,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -88828,7 +88828,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -89417,7 +89417,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -90003,7 +90003,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -90592,7 +90592,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -91178,7 +91178,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -91765,7 +91765,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -94696,7 +94696,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -95283,7 +95283,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -95870,7 +95870,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -96457,7 +96457,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -96475,7 +96475,7 @@
 		},
 		{
 			"hint": "1.0,6.0",
-			"value": 1,
+			"value": 2,
 			"var": "Rarity",
 			"var_type": "int"
 		},
@@ -97044,7 +97044,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -97634,7 +97634,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -98221,7 +98221,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -98808,7 +98808,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -98830,7 +98830,7 @@
 		},
 		{
 			"hint": "1.0,6.0",
-			"value": 1,
+			"value": 2,
 			"var": "Rarity",
 			"var_type": "int"
 		},
@@ -99404,7 +99404,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -99981,13 +99981,13 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Add 50% of any Health gained onto every other friendly Vinculi. When you buy a Vinculi, get a copy.",
+			"value": "Passive: Add 35% of any Health gained onto every other friendly Vinculi. When you buy a Vinculi, get a copy.",
 			"var": "Info",
 			"var_type": "String"
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -100138,7 +100138,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				50.0
+				35.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -100146,7 +100146,7 @@
 		{
 			"hint": "",
 			"value": {
-				"HealthBuff": 50
+				"HealthBuff": 35
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -100339,7 +100339,7 @@
 		},
 		{
 			"hint": "Utility:0,Offense:1,Defense:2,Solo:3",
-			"value": 2,
+			"value": 0,
 			"var": "Type",
 			"var_type": "int"
 		},
@@ -100574,7 +100574,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
