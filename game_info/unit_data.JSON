@@ -79,7 +79,7 @@
 		},
 		{
 			"hint": "",
-			"value": 85.0,
+			"value": 90.0,
 			"var": "Damage",
 			"var_type": "float"
 		},
@@ -511,7 +511,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -1111,7 +1115,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -1714,7 +1722,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -2314,7 +2326,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -2907,7 +2923,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -3503,7 +3523,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -4090,7 +4114,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -4692,7 +4720,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -5282,7 +5314,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -5897,7 +5933,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -6477,7 +6517,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -7073,7 +7117,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -7669,7 +7717,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -8265,7 +8317,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -8858,7 +8914,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -9448,7 +9508,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -10043,7 +10107,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -10639,7 +10707,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -11232,7 +11304,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -11822,7 +11898,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -12412,7 +12492,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -13002,7 +13086,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -13585,7 +13673,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -14178,7 +14270,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -14773,7 +14869,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -14934,7 +15034,7 @@
 		},
 		{
 			"hint": "",
-			"value": 300.0,
+			"value": 330.0,
 			"var": "Health",
 			"var_type": "float"
 		},
@@ -15360,7 +15460,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -15940,7 +16044,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -16552,7 +16660,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -16683,7 +16795,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When an adjacent unit triggers, charge this +1. When at 20 charges, activate and reset.",
+			"value": "When an adjacent unit triggers, charge this +1. When at 18 charges, activate and reset.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -16840,7 +16952,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				20.0
+				18.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -16848,7 +16960,7 @@
 		{
 			"hint": "",
 			"value": {
-				"Amount": 20
+				"Amount": 18
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -17169,7 +17281,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -17752,7 +17868,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -18332,7 +18452,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -18941,7 +19065,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -19114,7 +19242,7 @@
 		},
 		{
 			"hint": "",
-			"value": 50.0,
+			"value": 60.0,
 			"var": "Damage",
 			"var_type": "float"
 		},
@@ -19545,7 +19673,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -20138,7 +20270,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -20734,7 +20870,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -21330,7 +21470,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -21919,7 +22063,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -22506,7 +22654,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -23093,7 +23245,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -23697,7 +23853,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -24306,7 +24466,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -24899,7 +25063,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -25144,7 +25312,7 @@
 		},
 		{
 			"hint": "Fast:0,Medium:1,Slow:2",
-			"value": 1,
+			"value": 2,
 			"var": "ProjectileSpeed",
 			"var_type": "int"
 		},
@@ -25507,7 +25675,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -25638,7 +25810,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Deals Damage equal to 15% of the Health of adjacent Defense units. (Damage can't be buffed otherwise)",
+			"value": "Deals Damage equal to 20% of the Health of adjacent Defense units. (Damage can't be buffed otherwise)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -25795,7 +25967,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				15.0
+				20.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -25803,7 +25975,7 @@
 		{
 			"hint": "",
 			"value": {
-				"DamageBuff": 15
+				"DamageBuff": 20
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -26134,7 +26306,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -26718,7 +26894,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -27305,7 +27485,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -27901,7 +28085,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -28491,7 +28679,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -29081,7 +29273,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -29308,7 +29504,7 @@
 		},
 		{
 			"hint": "0.0,100.0",
-			"value": 30.0,
+			"value": 20.0,
 			"var": "DamageTypeBonus",
 			"var_type": "float"
 		},
@@ -29691,7 +29887,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -30274,7 +30474,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -30867,7 +31071,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -31463,7 +31671,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -32047,7 +32259,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -32631,7 +32847,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -33233,7 +33453,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -33823,7 +34047,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -34416,7 +34644,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -35003,7 +35235,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -35134,7 +35370,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When this gets Health, give a random friendly Weapon unit +3 Damage.",
+			"value": "Passive: When this gets at least 2 Health, give a random friendly Weapon unit +3 Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -35283,7 +35519,8 @@
 		{
 			"hint": "4:",
 			"value": [
-				"DamageBuff"
+				"DamageBuff",
+				"Amount"
 			],
 			"var": "ValueNames",
 			"var_type": "Array"
@@ -35291,7 +35528,8 @@
 		{
 			"hint": "3:",
 			"value": [
-				3.0
+				3.0,
+				2.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -35299,6 +35537,7 @@
 		{
 			"hint": "",
 			"value": {
+				"Amount": 2,
 				"DamageBuff": 3
 			},
 			"var": "CustomValues",
@@ -35596,7 +35835,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -36176,7 +36419,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -36775,7 +37022,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -37362,7 +37613,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -37493,7 +37748,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When in Fatigue: Start a 1.5s cooldown. On Trigger: Trigger all adjacent Town units (can't trigger other Solo units)",
+			"value": "When in Fatigue: Start a 1s cooldown. On Trigger: Trigger all adjacent Town units (can't trigger other Solo units)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -37547,13 +37802,13 @@
 		},
 		{
 			"hint": "",
-			"value": 1.5,
+			"value": 1.0,
 			"var": "AttackSpeed",
 			"var_type": "float"
 		},
 		{
 			"hint": "",
-			"value": 0.75,
+			"value": 0.5,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -37945,7 +38200,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -38076,7 +38335,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When in Fatigue: Friendly Weapons gain +15% Damage.",
+			"value": "When in Fatigue: Friendly Weapons gain +10% Damage.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -38233,7 +38492,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				15.0
+				10.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -38241,7 +38500,7 @@
 		{
 			"hint": "",
 			"value": {
-				"DamageBuff": 15
+				"DamageBuff": 10
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -38532,7 +38791,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -38693,7 +38956,7 @@
 		},
 		{
 			"hint": "",
-			"value": 160.0,
+			"value": 200.0,
 			"var": "Health",
 			"var_type": "float"
 		},
@@ -39119,7 +39382,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -39703,7 +39970,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -40314,7 +40585,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -40934,7 +41209,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -41530,7 +41809,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -42123,7 +42406,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -42710,7 +42997,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -42841,7 +43132,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When Destroyed: Increase the cooldown of a random Enemy unit by 0.2s.",
+			"value": "When Destroyed: Increase the cooldown of a random Enemy unit by 0.1s.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -42998,7 +43289,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				0.2
+				0.1
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -43006,7 +43297,7 @@
 		{
 			"hint": "",
 			"value": {
-				"SlowAmount": 0.2
+				"SlowAmount": 0.1
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -43294,7 +43585,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -43871,7 +44166,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -44478,7 +44777,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -45061,7 +45364,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -45654,7 +45961,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -46250,7 +46561,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -46840,7 +47155,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -47438,7 +47757,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -48031,7 +48354,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -48624,7 +48951,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -49220,7 +49551,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -49807,7 +50142,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -50400,7 +50739,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -51014,7 +51357,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -51604,7 +51951,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -51789,13 +52140,13 @@
 		},
 		{
 			"hint": "",
-			"value": 3.5,
+			"value": 3.0,
 			"var": "AttackSpeed",
 			"var_type": "float"
 		},
 		{
 			"hint": "",
-			"value": 1.75,
+			"value": 1.5,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -52207,7 +52558,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -52803,7 +53158,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -53396,7 +53755,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -53989,7 +54352,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -54578,7 +54945,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -55164,7 +55535,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -55751,7 +56126,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -56334,7 +56713,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -56923,7 +57306,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -57108,13 +57495,13 @@
 		},
 		{
 			"hint": "",
-			"value": 4.0,
+			"value": 3.0,
 			"var": "AttackSpeed",
 			"var_type": "float"
 		},
 		{
 			"hint": "",
-			"value": 2.0,
+			"value": 1.5,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -57533,7 +57920,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -58117,7 +58508,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -58697,7 +59092,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -59277,7 +59676,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -59861,7 +60264,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -59992,7 +60399,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat & When Destroyed: Summon 4 Trees on empty spaces.",
+			"value": "Start of Combat: Summon 4 Trees on empty spaces.\nWhen Destroyed: Summon 2 Trees on empty spaces.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -60141,7 +60548,8 @@
 		{
 			"hint": "4:",
 			"value": [
-				"Amount"
+				"Amount",
+				"Amount2"
 			],
 			"var": "ValueNames",
 			"var_type": "Array"
@@ -60149,7 +60557,8 @@
 		{
 			"hint": "3:",
 			"value": [
-				4.0
+				4.0,
+				2.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -60157,7 +60566,8 @@
 		{
 			"hint": "",
 			"value": {
-				"Amount": 4
+				"Amount": 4,
+				"Amount2": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -60451,7 +60861,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -61037,7 +61451,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -61648,7 +62066,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -62240,7 +62662,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -62833,7 +63259,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -63426,7 +63856,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -64012,7 +64446,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -64614,7 +65052,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -65197,7 +65639,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -65787,7 +66233,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -66167,7 +66617,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "OneWay",
 			"var_type": "bool"
 		},
@@ -66367,7 +66817,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -66953,7 +67407,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -67551,7 +68009,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -68144,7 +68606,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -68731,7 +69197,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -68862,7 +69332,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: All adjacent units that are smaller than this get 10% Speed, units that are bigger gain +30% Health, and unit that are the same size get both.",
+			"value": "Start of Combat: All adjacent units that are smaller than this get 15% Speed, units that are bigger gain +35% Health, and unit that are the same size get both.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -69020,8 +69490,8 @@
 		{
 			"hint": "3:",
 			"value": [
-				10.0,
-				30.0
+				15.0,
+				35.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -69029,8 +69499,8 @@
 		{
 			"hint": "",
 			"value": {
-				"HealthBuff": 30,
-				"SpeedBuff": 10
+				"HealthBuff": 35,
+				"SpeedBuff": 15
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -69321,7 +69791,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -69905,7 +70379,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -70036,7 +70514,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When an Enemy unit gets destroyed, 10% chance to summon a friendly Haunted Mine at that position. Enemy Weapons will target the mines.",
+			"value": "Passive: When an Enemy unit gets destroyed, 7% chance to summon a friendly Haunted Mine at that position. The mines are targetable by enemy weapons..",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -70193,7 +70671,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				10.0
+				7.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -70201,7 +70679,7 @@
 		{
 			"hint": "",
 			"value": {
-				"Amount": 10
+				"Amount": 7
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -70489,7 +70967,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -71082,7 +71564,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -71659,7 +72145,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -72242,7 +72732,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -72819,7 +73313,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -73412,7 +73910,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -73543,7 +74045,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Give a random Enemy Weapon -5 Lifesteal (the Weapon takes Damage on trigger)",
+			"value": "Give a random Enemy Weapon -4 Lifesteal (the Weapon takes Damage on trigger)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -73700,7 +74202,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				5.0
+				4.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -73708,7 +74210,7 @@
 		{
 			"hint": "",
 			"value": {
-				"HealthNerf": 5
+				"HealthNerf": 4
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -73999,7 +74501,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -74589,7 +75095,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -74720,7 +75230,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: Targets random enemy units. When a friendly unit gets destroyed, attack and lose -20 Health. When a friendly unit gets summoned, gain +20 Health and +1 Damage. (Can't get other damage buffs)",
+			"value": "Passive: Targets random enemy units. When a friendly unit gets destroyed, attack and lose -20 Health. When a friendly unit gets summoned, gain +20 Health. (Can't get other damage buffs)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -74762,7 +75272,7 @@
 		},
 		{
 			"hint": "",
-			"value": 20.0,
+			"value": 40.0,
 			"var": "Damage",
 			"var_type": "float"
 		},
@@ -75187,7 +75697,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -75774,7 +76288,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -76354,7 +76872,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -76938,7 +77460,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -77524,7 +78050,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -78106,7 +78636,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -78707,7 +79241,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -79294,7 +79832,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -79877,7 +80419,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -80467,7 +81013,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -80598,7 +81148,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Adjacent Infinity Pools spread +10% extra Health\n(only shows up when you have an Infinity Pool)",
+			"value": "Start of Combat: Adjacent Infinity Pools spread +25% extra Health\n(only shows up when you have an Infinity Pool)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -80757,7 +81307,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				10.0
+				25.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -80765,7 +81315,7 @@
 		{
 			"hint": "",
 			"value": {
-				"HealthBuff": 10
+				"HealthBuff": 25
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -81056,7 +81606,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -81643,7 +82197,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -82253,7 +82811,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -82840,7 +83402,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -83424,7 +83990,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -84011,7 +84581,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -84595,7 +85169,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -85175,7 +85753,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -85348,7 +85930,7 @@
 		},
 		{
 			"hint": "",
-			"value": 40.0,
+			"value": 30.0,
 			"var": "Damage",
 			"var_type": "float"
 		},
@@ -85763,7 +86345,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -86355,7 +86941,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -86937,7 +87527,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -87523,7 +88117,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -88109,7 +88707,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -88296,13 +88898,13 @@
 		},
 		{
 			"hint": "",
-			"value": 5.5,
+			"value": 3.5,
 			"var": "AttackSpeed",
 			"var_type": "float"
 		},
 		{
 			"hint": "",
-			"value": 2.75,
+			"value": 1.75,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -88691,7 +89293,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -89280,7 +89886,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -89866,7 +90476,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -89997,7 +90611,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: After 5 friendly Nature units are destroyed, summon a Tree on an empty space.\n(only shows up when you have an Elder Dandelion)",
+			"value": "Passive: After 6 friendly Nature units are destroyed, summon a Tree on an empty space.\n(only shows up when you have an Elder Dandelion)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -90156,7 +90770,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				5.0
+				6.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -90164,7 +90778,7 @@
 		{
 			"hint": "",
 			"value": {
-				"Amount": 5
+				"Amount": 6
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -90455,7 +91069,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -91041,7 +91659,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -91172,7 +91794,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When an adjacent Town unit triggers, deal 3 Damage to a random enemy Town unit.",
+			"value": "Passive: When an adjacent Town unit triggers, deal 4 Damage to a random enemy Town unit.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -91329,7 +91951,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				3.0
+				4.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -91337,7 +91959,7 @@
 		{
 			"hint": "",
 			"value": {
-				"DamageBuff": 3
+				"DamageBuff": 4
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -91628,7 +92250,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -92239,7 +92865,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -92819,7 +93449,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -93399,7 +94033,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -93979,7 +94617,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -94559,7 +95201,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -95146,7 +95792,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -95733,7 +96383,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -96320,7 +96974,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -96907,7 +97565,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -97497,7 +98159,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -98084,7 +98750,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -98671,7 +99341,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -99267,7 +99941,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -99850,7 +100528,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -100437,7 +101119,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},
@@ -100568,7 +101254,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Give a random friendly Weapon +2 Damage for each adjacent Production.",
+			"value": "Give a random friendly Weapon +1 Damage for each adjacent Production.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -100725,7 +101411,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				2.0
+				1.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -100733,7 +101419,7 @@
 		{
 			"hint": "",
 			"value": {
-				"DamageBuff": 2
+				"DamageBuff": 1
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -101027,7 +101713,11 @@
 		},
 		{
 			"hint": "int",
-			"value": [],
+			"value": [
+				0,
+				0,
+				0
+			],
 			"var": "EnchantIDs",
 			"var_type": "Array"
 		},

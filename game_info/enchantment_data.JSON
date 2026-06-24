@@ -1392,7 +1392,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Negate the first instance of Damage. (does not stack)",
+			"value": "Negate the first instance of Damage. (does not stack or spread on summons)",
 			"var": "Info",
 			"var_type": "String"
 		}

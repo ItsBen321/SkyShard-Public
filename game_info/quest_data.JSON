@@ -92,7 +92,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Once you have 4 Trees, get an Elder Dandelion.",
+			"value": "Once you have 5 Nature units from Tier 1, get an Elder Dandelion.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -122,14 +122,14 @@
 		},
 		{
 			"hint": "",
-			"value": "Current Trees on board: {_Trees} / {Trees}.",
+			"value": "Current Tier 1 Nature on board: {_Nature} / {Nature}.",
 			"var": "DisplayString",
 			"var_type": "String"
 		},
 		{
 			"hint": "4:",
 			"value": [
-				"Trees"
+				"Nature"
 			],
 			"var": "ValueName",
 			"var_type": "Array"
@@ -137,7 +137,7 @@
 		{
 			"hint": "2:",
 			"value": [
-				4
+				5
 			],
 			"var": "Values",
 			"var_type": "Array"
