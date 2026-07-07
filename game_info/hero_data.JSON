@@ -70,21 +70,12 @@
 			"var_type": "Object"
 		},
 		{
-			"hint": "Texture",
+			"hint": "PackedScene",
 			"value": {
-				"path": "res://heroes/islands/000_ZapZap_Island.png",
-				"type": "CompressedTexture2D"
+				"path": "res://heroes/islands/000_Zapzap/zapzap_island.tscn",
+				"type": "PackedScene"
 			},
 			"var": "Island",
-			"var_type": "Object"
-		},
-		{
-			"hint": "Texture",
-			"value": {
-				"path": "res://heroes/islands/000_ZapZap_Island_Flipped.png",
-				"type": "CompressedTexture2D"
-			},
-			"var": "IslandFlipped",
 			"var_type": "Object"
 		},
 		{
@@ -248,21 +239,12 @@
 			"var_type": "Object"
 		},
 		{
-			"hint": "Texture",
+			"hint": "PackedScene",
 			"value": {
-				"path": "res://heroes/islands/001_Auris_Island.png",
-				"type": "CompressedTexture2D"
+				"path": "res://heroes/islands/001_Auris/auris_island.tscn",
+				"type": "PackedScene"
 			},
 			"var": "Island",
-			"var_type": "Object"
-		},
-		{
-			"hint": "Texture",
-			"value": {
-				"path": "res://heroes/islands/001_Auris_Island_Flipped.png",
-				"type": "CompressedTexture2D"
-			},
-			"var": "IslandFlipped",
 			"var_type": "Object"
 		},
 		{
@@ -414,21 +396,12 @@
 			"var_type": "Object"
 		},
 		{
-			"hint": "Texture",
+			"hint": "PackedScene",
 			"value": {
-				"path": "res://heroes/islands/002_Ambrose_Island.png",
-				"type": "CompressedTexture2D"
+				"path": "res://heroes/islands/002_Ambrose/ambrose_island.tscn",
+				"type": "PackedScene"
 			},
 			"var": "Island",
-			"var_type": "Object"
-		},
-		{
-			"hint": "Texture",
-			"value": {
-				"path": "res://heroes/islands/002_Ambrose_Island_Flipped.png",
-				"type": "CompressedTexture2D"
-			},
-			"var": "IslandFlipped",
 			"var_type": "Object"
 		},
 		{

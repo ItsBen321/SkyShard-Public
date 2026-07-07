@@ -92,7 +92,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Once you have 5 Nature units from Tier 1, get an Elder Dandelion.",
+			"value": "Once you buy 5 Nature units from Tier 1, get an Elder Dandelion.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -122,7 +122,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Current Tier 1 Nature on board: {_Nature} / {Nature}.",
+			"value": "Current Tier 1 Nature bought: {_Nature} / {Nature}.",
 			"var": "DisplayString",
 			"var_type": "String"
 		},

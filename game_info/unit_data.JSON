@@ -65187,7 +65187,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When this gets Health, also spread it to a random friendly unit (that's not a Bee Keeper)",
+			"value": "Passive: When this gets Health, also spread 75% of it to a random friendly unit (that's not a Bee Keeper)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -65335,20 +65335,24 @@
 		},
 		{
 			"hint": "4:",
-			"value": [],
+			"value": [
+				"HealthBuff"
+			],
 			"var": "ValueNames",
 			"var_type": "Array"
 		},
 		{
 			"hint": "3:",
-			"value": [],
+			"value": [
+				75.0
+			],
 			"var": "Values",
 			"var_type": "Array"
 		},
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 75
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -69594,13 +69598,19 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/116_BlindPriestess/unit_116.tres::SpriteFrames_gfp77",
+				"type": "SpriteFrames"
+			},
 			"var": "Shadow",
 			"var_type": "Nil"
 		},
 		{
 			"hint": "SpriteFrames",
-			"value": null,
+			"value": {
+				"path": "res://units/116_BlindPriestess/unit_116.tres::SpriteFrames_gfp77",
+				"type": "SpriteFrames"
+			},
 			"var": "Shadow",
 			"var_type": "Object"
 		},
@@ -69670,8 +69680,8 @@
 		{
 			"hint": "",
 			"value": {
-				"x": -50.0,
-				"y": 0.0
+				"x": -200.0,
+				"y": -290.0
 			},
 			"var": "ShadowOffset",
 			"var_type": "Vector2"

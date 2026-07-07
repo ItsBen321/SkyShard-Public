@@ -638,7 +638,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Random Magic",
+			"value": "Magic",
 			"var": "Name",
 			"var_type": "String"
 		},
@@ -666,7 +666,7 @@
 		{
 			"hint": "Texture2D",
 			"value": {
-				"path": "res://encounters/Sprites/white_bg.png",
+				"path": "res://encounters/Sprites/blue_bg.png",
 				"type": "CompressedTexture2D"
 			},
 			"var": "BG_Rarity",
@@ -680,7 +680,7 @@
 		},
 		{
 			"hint": "1.0,10.0",
-			"value": 5,
+			"value": 4,
 			"var": "Rarity",
 			"var_type": "int"
 		},
@@ -692,7 +692,7 @@
 		},
 		{
 			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
-			"value": 1,
+			"value": 2,
 			"var": "Specific",
 			"var_type": "int"
 		},
@@ -716,7 +716,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Get a random Magic unit.",
+			"value": "Choose 1 of 3 random units.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -742,7 +742,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Random Tinker",
+			"value": "Tinker",
 			"var": "Name",
 			"var_type": "String"
 		},
@@ -770,7 +770,7 @@
 		{
 			"hint": "Texture2D",
 			"value": {
-				"path": "res://encounters/Sprites/white_bg.png",
+				"path": "res://encounters/Sprites/blue_bg.png",
 				"type": "CompressedTexture2D"
 			},
 			"var": "BG_Rarity",
@@ -784,7 +784,7 @@
 		},
 		{
 			"hint": "1.0,10.0",
-			"value": 5,
+			"value": 4,
 			"var": "Rarity",
 			"var_type": "int"
 		},
@@ -796,7 +796,7 @@
 		},
 		{
 			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
-			"value": 1,
+			"value": 2,
 			"var": "Specific",
 			"var_type": "int"
 		},
@@ -820,7 +820,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Get a random Tinker unit.",
+			"value": "Choose 1 of 3 random units.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -888,7 +888,7 @@
 		},
 		{
 			"hint": "1.0,10.0",
-			"value": 4,
+			"value": 6,
 			"var": "Rarity",
 			"var_type": "int"
 		},
@@ -1485,7 +1485,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -1512,7 +1512,7 @@
 		},
 		{
 			"hint": "1.0,10.0",
-			"value": 5,
+			"value": 3,
 			"var": "Rarity",
 			"var_type": "int"
 		},
@@ -1589,7 +1589,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -1616,7 +1616,7 @@
 		},
 		{
 			"hint": "1.0,10.0",
-			"value": 5,
+			"value": 3,
 			"var": "Rarity",
 			"var_type": "int"
 		},
@@ -1928,7 +1928,7 @@
 		},
 		{
 			"hint": "1.0,10.0",
-			"value": 5,
+			"value": 6,
 			"var": "Rarity",
 			"var_type": "int"
 		},
@@ -5117,7 +5117,7 @@
 		{
 			"hint": "Texture2D",
 			"value": {
-				"path": "res://encounters/Sprites/white_bg.png",
+				"path": "res://encounters/Sprites/pink_bg.png",
 				"type": "CompressedTexture2D"
 			},
 			"var": "BG_Rarity",
@@ -5143,7 +5143,7 @@
 		},
 		{
 			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
-			"value": 4,
+			"value": 6,
 			"var": "Specific",
 			"var_type": "int"
 		},
@@ -5278,6 +5278,1670 @@
 		{
 			"hint": "",
 			"value": "",
+			"var": "TierInfo",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/encounter.gd",
+			"value": null,
+			"var": "encounter.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 51,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Random Basic",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://encounters/Resources/encounter_051.tres::SpriteFrames_cgctm",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": "<null>",
+			"var": "Island",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture2D",
+			"value": {
+				"path": "res://encounters/Sprites/white_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "BG_Rarity",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Cost",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,10.0",
+			"value": 2,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "Enemy:0,Unit:1,Module:2,Fuel:3,Quest:4",
+			"value": 1,
+			"var": "What",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
+			"value": 1,
+			"var": "Specific",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Utility:1,Offense:2,Defense:3",
+			"value": 0,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Town:1,Production:2,Weapon:3,Structure:4",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Basic:1,Tinker:2,Magic:3,Ancient:4,Novus:5,Nature:6",
+			"value": 1,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Get a random Basic.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Tier 1",
+			"var": "TierInfo",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/encounter.gd",
+			"value": null,
+			"var": "encounter.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 52,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Basic",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://encounters/Resources/encounter_052.tres::SpriteFrames_j4tm0",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": "<null>",
+			"var": "Island",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture2D",
+			"value": {
+				"path": "res://encounters/Sprites/blue_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "BG_Rarity",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Cost",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,10.0",
+			"value": 3,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "Enemy:0,Unit:1,Module:2,Fuel:3,Quest:4",
+			"value": 1,
+			"var": "What",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
+			"value": 2,
+			"var": "Specific",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Utility:1,Offense:2,Defense:3",
+			"value": 0,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Town:1,Production:2,Weapon:3,Structure:4",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Basic:1,Tinker:2,Magic:3,Ancient:4,Novus:5,Nature:6",
+			"value": 1,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Choose 1 of 3 random units.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Tier 1",
+			"var": "TierInfo",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/encounter.gd",
+			"value": null,
+			"var": "encounter.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 53,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Basic",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://encounters/Resources/encounter_053.tres::SpriteFrames_0s0ig",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Island",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture2D",
+			"value": {
+				"path": "res://encounters/Sprites/blue_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "BG_Rarity",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 2,
+			"var": "Cost",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,10.0",
+			"value": 4,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "Enemy:0,Unit:1,Module:2,Fuel:3,Quest:4",
+			"value": 1,
+			"var": "What",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
+			"value": 2,
+			"var": "Specific",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Utility:1,Offense:2,Defense:3",
+			"value": 0,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Town:1,Production:2,Weapon:3,Structure:4",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Basic:1,Tinker:2,Magic:3,Ancient:4,Novus:5,Nature:6",
+			"value": 1,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Choose 1 of 3 random units.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Tier 1/2",
+			"var": "TierInfo",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/encounter.gd",
+			"value": null,
+			"var": "encounter.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 54,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Big Basic",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://encounters/Resources/encounter_054.tres::SpriteFrames_ejqhg",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Island",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture2D",
+			"value": {
+				"path": "res://encounters/Sprites/pink_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "BG_Rarity",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 2,
+			"var": "Cost",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,10.0",
+			"value": 2,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "Enemy:0,Unit:1,Module:2,Fuel:3,Quest:4",
+			"value": 1,
+			"var": "What",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
+			"value": 3,
+			"var": "Specific",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Utility:1,Offense:2,Defense:3",
+			"value": 0,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Town:1,Production:2,Weapon:3,Structure:4",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Basic:1,Tinker:2,Magic:3,Ancient:4,Novus:5,Nature:6",
+			"value": 1,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Choose 1 of 6 random units.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Tier 1/2",
+			"var": "TierInfo",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/encounter.gd",
+			"value": null,
+			"var": "encounter.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 55,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Basic",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://encounters/Resources/encounter_055.tres::SpriteFrames_sjy0e",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Island",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture2D",
+			"value": {
+				"path": "res://encounters/Sprites/blue_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "BG_Rarity",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 3,
+			"var": "Cost",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,10.0",
+			"value": 4,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "Enemy:0,Unit:1,Module:2,Fuel:3,Quest:4",
+			"value": 1,
+			"var": "What",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
+			"value": 2,
+			"var": "Specific",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Utility:1,Offense:2,Defense:3",
+			"value": 0,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Town:1,Production:2,Weapon:3,Structure:4",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Basic:1,Tinker:2,Magic:3,Ancient:4,Novus:5,Nature:6",
+			"value": 1,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Choose 1 of 3 random units.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Tier 2/3",
+			"var": "TierInfo",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/encounter.gd",
+			"value": null,
+			"var": "encounter.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 56,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Big Basic",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://encounters/Resources/encounter_056.tres::SpriteFrames_u5jfy",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Island",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture2D",
+			"value": {
+				"path": "res://encounters/Sprites/pink_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "BG_Rarity",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 3,
+			"var": "Cost",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,10.0",
+			"value": 2,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "Enemy:0,Unit:1,Module:2,Fuel:3,Quest:4",
+			"value": 1,
+			"var": "What",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
+			"value": 3,
+			"var": "Specific",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Utility:1,Offense:2,Defense:3",
+			"value": 0,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Town:1,Production:2,Weapon:3,Structure:4",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Basic:1,Tinker:2,Magic:3,Ancient:4,Novus:5,Nature:6",
+			"value": 1,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Choose 1 of 6 random units.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Tier 2/3",
+			"var": "TierInfo",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/encounter.gd",
+			"value": null,
+			"var": "encounter.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 57,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Basic",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://encounters/Resources/encounter_057.tres::SpriteFrames_8nhho",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Island",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture2D",
+			"value": {
+				"path": "res://encounters/Sprites/blue_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "BG_Rarity",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 4,
+			"var": "Cost",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,10.0",
+			"value": 4,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "Enemy:0,Unit:1,Module:2,Fuel:3,Quest:4",
+			"value": 1,
+			"var": "What",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
+			"value": 2,
+			"var": "Specific",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Utility:1,Offense:2,Defense:3",
+			"value": 0,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Town:1,Production:2,Weapon:3,Structure:4",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Basic:1,Tinker:2,Magic:3,Ancient:4,Novus:5,Nature:6",
+			"value": 1,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Choose 1 of 3 random units.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Tier 3/4",
+			"var": "TierInfo",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/encounter.gd",
+			"value": null,
+			"var": "encounter.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 58,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Random Novus",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://encounters/Resources/encounter_058.tres::SpriteFrames_ws203",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Island",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture2D",
+			"value": {
+				"path": "res://encounters/Sprites/white_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "BG_Rarity",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Cost",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,10.0",
+			"value": 3,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "Enemy:0,Unit:1,Module:2,Fuel:3,Quest:4",
+			"value": 1,
+			"var": "What",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
+			"value": 1,
+			"var": "Specific",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Utility:1,Offense:2,Defense:3",
+			"value": 0,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Town:1,Production:2,Weapon:3,Structure:4",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Basic:1,Tinker:2,Magic:3,Ancient:4,Novus:5,Nature:6",
+			"value": 5,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Get a random Novus.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Tier 1",
+			"var": "TierInfo",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/encounter.gd",
+			"value": null,
+			"var": "encounter.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 59,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Random Magic",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://encounters/Resources/encounter_059.tres::SpriteFrames_hbq5l",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Island",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture2D",
+			"value": {
+				"path": "res://encounters/Sprites/white_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "BG_Rarity",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Cost",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,10.0",
+			"value": 3,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "Enemy:0,Unit:1,Module:2,Fuel:3,Quest:4",
+			"value": 1,
+			"var": "What",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
+			"value": 1,
+			"var": "Specific",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Utility:1,Offense:2,Defense:3",
+			"value": 0,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Town:1,Production:2,Weapon:3,Structure:4",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Basic:1,Tinker:2,Magic:3,Ancient:4,Novus:5,Nature:6",
+			"value": 3,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Get a random Magic.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Tier 1",
+			"var": "TierInfo",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/encounter.gd",
+			"value": null,
+			"var": "encounter.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 60,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Random Ancient",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://encounters/Resources/encounter_060.tres::SpriteFrames_sia1x",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Island",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture2D",
+			"value": {
+				"path": "res://encounters/Sprites/white_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "BG_Rarity",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Cost",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,10.0",
+			"value": 3,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "Enemy:0,Unit:1,Module:2,Fuel:3,Quest:4",
+			"value": 1,
+			"var": "What",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
+			"value": 1,
+			"var": "Specific",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Utility:1,Offense:2,Defense:3",
+			"value": 0,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Town:1,Production:2,Weapon:3,Structure:4",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Basic:1,Tinker:2,Magic:3,Ancient:4,Novus:5,Nature:6",
+			"value": 4,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Get a random Ancient.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Tier 1",
+			"var": "TierInfo",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/encounter.gd",
+			"value": null,
+			"var": "encounter.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 61,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Random Tinker",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://encounters/Resources/encounter_061.tres::SpriteFrames_wfmy3",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Island",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture2D",
+			"value": {
+				"path": "res://encounters/Sprites/white_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "BG_Rarity",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 1,
+			"var": "Cost",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,10.0",
+			"value": 3,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "Enemy:0,Unit:1,Module:2,Fuel:3,Quest:4",
+			"value": 1,
+			"var": "What",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
+			"value": 1,
+			"var": "Specific",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Utility:1,Offense:2,Defense:3",
+			"value": 0,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Town:1,Production:2,Weapon:3,Structure:4",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Basic:1,Tinker:2,Magic:3,Ancient:4,Novus:5,Nature:6",
+			"value": 2,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Get a random Tinker.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Tier 1",
+			"var": "TierInfo",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/encounter.gd",
+			"value": null,
+			"var": "encounter.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 62,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Ancient",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://encounters/Resources/encounter_062.tres::SpriteFrames_ryfga",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Island",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture2D",
+			"value": {
+				"path": "res://encounters/Sprites/blue_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "BG_Rarity",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 2,
+			"var": "Cost",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,10.0",
+			"value": 3,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "Enemy:0,Unit:1,Module:2,Fuel:3,Quest:4",
+			"value": 1,
+			"var": "What",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
+			"value": 2,
+			"var": "Specific",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Utility:1,Offense:2,Defense:3",
+			"value": 0,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Town:1,Production:2,Weapon:3,Structure:4",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Basic:1,Tinker:2,Magic:3,Ancient:4,Novus:5,Nature:6",
+			"value": 4,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Choose 1 of 3 random units.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Tier 1/2",
+			"var": "TierInfo",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/encounter.gd",
+			"value": null,
+			"var": "encounter.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 63,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Novus",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://encounters/Resources/encounter_063.tres::SpriteFrames_l0dmq",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Island",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture2D",
+			"value": {
+				"path": "res://encounters/Sprites/blue_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "BG_Rarity",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 2,
+			"var": "Cost",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,10.0",
+			"value": 3,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "Enemy:0,Unit:1,Module:2,Fuel:3,Quest:4",
+			"value": 1,
+			"var": "What",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
+			"value": 2,
+			"var": "Specific",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Utility:1,Offense:2,Defense:3",
+			"value": 0,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Town:1,Production:2,Weapon:3,Structure:4",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Basic:1,Tinker:2,Magic:3,Ancient:4,Novus:5,Nature:6",
+			"value": 5,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Choose 1 of 3 random units.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Tier 1/2",
+			"var": "TierInfo",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/encounter.gd",
+			"value": null,
+			"var": "encounter.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 64,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Ancient",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://encounters/Resources/encounter_064.tres::SpriteFrames_3n70b",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Island",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture2D",
+			"value": {
+				"path": "res://encounters/Sprites/blue_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "BG_Rarity",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 3,
+			"var": "Cost",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,10.0",
+			"value": 3,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "Enemy:0,Unit:1,Module:2,Fuel:3,Quest:4",
+			"value": 1,
+			"var": "What",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
+			"value": 2,
+			"var": "Specific",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Utility:1,Offense:2,Defense:3",
+			"value": 0,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Town:1,Production:2,Weapon:3,Structure:4",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Basic:1,Tinker:2,Magic:3,Ancient:4,Novus:5,Nature:6",
+			"value": 4,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Choose 1 of 3 random units.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Tier 2/3",
+			"var": "TierInfo",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/encounter.gd",
+			"value": null,
+			"var": "encounter.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 65,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Novus",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://encounters/Resources/encounter_065.tres::SpriteFrames_lia0b",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Island",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture2D",
+			"value": {
+				"path": "res://encounters/Sprites/blue_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "BG_Rarity",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 3,
+			"var": "Cost",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,10.0",
+			"value": 4,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "Enemy:0,Unit:1,Module:2,Fuel:3,Quest:4",
+			"value": 1,
+			"var": "What",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
+			"value": 2,
+			"var": "Specific",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Utility:1,Offense:2,Defense:3",
+			"value": 0,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Town:1,Production:2,Weapon:3,Structure:4",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Basic:1,Tinker:2,Magic:3,Ancient:4,Novus:5,Nature:6",
+			"value": 5,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Choose 1 of 3 random units.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Tier 2/3",
+			"var": "TierInfo",
+			"var_type": "String"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/encounter.gd",
+			"value": null,
+			"var": "encounter.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 66,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Nature",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://encounters/Resources/encounter_066.tres::SpriteFrames_7fh0q",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Island",
+			"var_type": "String"
+		},
+		{
+			"hint": "Texture2D",
+			"value": {
+				"path": "res://encounters/Sprites/blue_bg.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "BG_Rarity",
+			"var_type": "Object"
+		},
+		{
+			"hint": "1.0,5.0",
+			"value": 5,
+			"var": "Cost",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,10.0",
+			"value": 2,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "Enemy:0,Unit:1,Module:2,Fuel:3,Quest:4",
+			"value": 1,
+			"var": "What",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Single Random Unit:1,Triple Random Unit:2,Six Random Unit:3,Single Random Module:4,Triple Random Module:5,Six Random Module:6",
+			"value": 2,
+			"var": "Specific",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Utility:1,Offense:2,Defense:3",
+			"value": 0,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Town:1,Production:2,Weapon:3,Structure:4",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "None:0,Basic:1,Tinker:2,Magic:3,Ancient:4,Novus:5,Nature:6",
+			"value": 6,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Choose 1 of 3 random units.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "Tier 4/5",
 			"var": "TierInfo",
 			"var_type": "String"
 		}
