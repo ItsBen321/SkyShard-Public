@@ -37748,7 +37748,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When in Fatigue: Start a 1s cooldown. On Trigger: Trigger all adjacent Town units (can't trigger other Solo units)",
+			"value": "Give adjacent town units +3 Health for each adjacent town unit this has.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -37796,19 +37796,19 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "HasSpeed",
 			"var_type": "bool"
 		},
 		{
 			"hint": "",
-			"value": 1.0,
+			"value": 3.5,
 			"var": "AttackSpeed",
 			"var_type": "float"
 		},
 		{
 			"hint": "",
-			"value": 0.5,
+			"value": 1.75,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -37896,20 +37896,24 @@
 		},
 		{
 			"hint": "4:",
-			"value": [],
+			"value": [
+				"HealthBuff"
+			],
 			"var": "ValueNames",
 			"var_type": "Array"
 		},
 		{
 			"hint": "3:",
-			"value": [],
+			"value": [
+				3.0
+			],
 			"var": "Values",
 			"var_type": "Array"
 		},
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 3
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -70530,7 +70534,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -90882,13 +90886,19 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/152_ElderTigerLily/unit_152_resource.tres::SpriteFrames_y3axv",
+				"type": "SpriteFrames"
+			},
 			"var": "Shadow",
 			"var_type": "Nil"
 		},
 		{
 			"hint": "SpriteFrames",
-			"value": null,
+			"value": {
+				"path": "res://units/152_ElderTigerLily/unit_152_resource.tres::SpriteFrames_y3axv",
+				"type": "SpriteFrames"
+			},
 			"var": "Shadow",
 			"var_type": "Object"
 		},
@@ -90958,8 +90968,8 @@
 		{
 			"hint": "",
 			"value": {
-				"x": -100.0,
-				"y": 0.0
+				"x": -120.0,
+				"y": -140.0
 			},
 			"var": "ShadowOffset",
 			"var_type": "Vector2"
@@ -90967,7 +90977,7 @@
 		{
 			"hint": "",
 			"value": {
-				"x": -100.0,
+				"x": 0.0,
 				"y": 0.0
 			},
 			"var": "ShadowOffsetFlipped",
@@ -91214,7 +91224,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: When adjacent Bee Keeper activates, deal 1 Damage to an enemy non-Nature unit. (only shows up when you have a Bee Keeper)",
+			"value": "When adjacent Bee Keeper activates, deal 1 Damage to an enemy non-Nature unit. (only shows up when you have a Bee Keeper)",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -91346,13 +91356,13 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "StartOfCombat",
 			"var_type": "bool"
 		},
 		{
 			"hint": "0.0,5.0,1.0",
-			"value": 2,
+			"value": 0,
 			"var": "StartOrder",
 			"var_type": "int"
 		},
@@ -97764,13 +97774,13 @@
 		},
 		{
 			"hint": "",
-			"value": 2.0,
+			"value": 2.5,
 			"var": "AttackSpeed",
 			"var_type": "float"
 		},
 		{
 			"hint": "",
-			"value": 1.0,
+			"value": 1.25,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -101679,6 +101689,1779 @@
 			"hint": "",
 			"value": {
 				"path": "res://units/170_Efficio/unit_170_custom_logic.gd",
+				"type": "GDScript"
+			},
+			"var": "ProcessScript",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": "",
+			"var": "OgInfo",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Base",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": [
+				{
+					"id": 0,
+					"name": "Empty",
+					"path": "res://enchantments/Resources/enchant_000.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 0,
+					"name": "Empty",
+					"path": "res://enchantments/Resources/enchant_000.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 0,
+					"name": "Empty",
+					"path": "res://enchantments/Resources/enchant_000.tres",
+					"type": "Resource"
+				}
+			],
+			"var": "EnchantList",
+			"var_type": "Array"
+		},
+		{
+			"hint": "int",
+			"value": [
+				0,
+				0,
+				0
+			],
+			"var": "EnchantIDs",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": [],
+			"var": "DamageReduct",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "DoubleDamage",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "SpeedScaling",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "ResummonTwice",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "Resummoned",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InitDone",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": 0.0,
+			"var": "Lifesteal",
+			"var_type": "float"
+		},
+		{
+			"hint": "Node2D",
+			"value": [],
+			"var": "Shelter",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Transferon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Node2D",
+			"value": [],
+			"var": "AntiStun",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "FirstDamageInstance",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": {
+				"a": 1.0,
+				"b": 0.299999982118607,
+				"g": 1.5,
+				"r": 0.32399994134903
+			},
+			"var": "HighlightColor",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": {
+				"a": 1.0,
+				"b": 0.270000010728836,
+				"g": 0.340000003576279,
+				"r": 1.0
+			},
+			"var": "TargetColor",
+			"var_type": "Nil"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/unit_stats.gd",
+			"value": null,
+			"var": "unit_stats.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": {
+				"id": 0,
+				"name": "Empty",
+				"path": "res://enchantments/Resources/enchant_000.tres",
+				"type": "Resource"
+			},
+			"var": "Enchant0",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Main",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 171,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Wizards' Relic",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "When this gets destroyed by the Fatigue Wizard, deal 1000 Damage to 2 random Enemy units.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "2:",
+			"value": [],
+			"var": "Conditional",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Stats",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "1.0,6.0",
+			"value": 1,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 40.0,
+			"var": "Health",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "HasDamage",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": 1000.0,
+			"var": "Damage",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "HasSpeed",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": 0.0,
+			"var": "AttackSpeed",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": 0.0,
+			"var": "Min",
+			"var_type": "float"
+		},
+		{
+			"hint": "1.0,6.0",
+			"value": 1,
+			"var": "length_x",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,6.0",
+			"value": 1,
+			"var": "length_y",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Modifiers",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "PermanentDestroy",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Normal:0,Pierce:1,Explosive:2,Stun:3",
+			"value": 0,
+			"var": "DamageType",
+			"var_type": "int"
+		},
+		{
+			"hint": "0.0,100.0",
+			"value": 0.0,
+			"var": "DamageTypeBonus",
+			"var_type": "float"
+		},
+		{
+			"hint": "Normal:0,Friendly Fire:1,Extra Defense Damage:2,Size Scaling:3,Extra Nature Damage:4,Extra Magic Damage:5,Slow Down:6",
+			"value": 0,
+			"var": "SpecialDamageType",
+			"var_type": "int"
+		},
+		{
+			"hint": "Closest:0,Biggest:1,Town:2,Random:3,Healthiest:4,Random Defense:5",
+			"value": 3,
+			"var": "Targeting",
+			"var_type": "int"
+		},
+		{
+			"hint": "Fast:0,Medium:1,Slow:2",
+			"value": 0,
+			"var": "ProjectileSpeed",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": [
+				0.2,
+				0.3,
+				0.6
+			],
+			"var": "ProjectileSpeedValue",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "StartOfCombat",
+			"var_type": "bool"
+		},
+		{
+			"hint": "0.0,5.0,1.0",
+			"value": 0,
+			"var": "StartOrder",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Custom Values",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"DamageBuff"
+			],
+			"var": "ValueNames",
+			"var_type": "Array"
+		},
+		{
+			"hint": "3:",
+			"value": [
+				1000.0
+			],
+			"var": "Values",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": {
+				"DamageBuff": 1000
+			},
+			"var": "CustomValues",
+			"var_type": "Dictionary"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Assets",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://units/171_WizardsRelic/unit_171_resource.tres::SpriteFrames_uh4p3",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://units/171_WizardsRelic/unit_171_resource.tres::SpriteFrames_u6h5g",
+				"type": "SpriteFrames"
+			},
+			"var": "Projectile",
+			"var_type": "Object"
+		},
+		{
+			"hint": "PackedScene",
+			"value": null,
+			"var": "ProjectileTrail",
+			"var_type": "Object"
+		},
+		{
+			"hint": "PackedScene",
+			"value": null,
+			"var": "ExtraLayer",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Shader",
+			"value": null,
+			"var": "ExtraShader",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "Laser",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": {
+				"x": 0.0,
+				"y": 0.0
+			},
+			"var": "ProjectileOffset",
+			"var_type": "Vector2"
+		},
+		{
+			"hint": "24/17:AudioStream",
+			"value": [],
+			"var": "SFX",
+			"var_type": "Array"
+		},
+		{
+			"hint": "24/17:AudioStream",
+			"value": [],
+			"var": "ImpactSFX",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": 2,
+			"var": "SFX_priority",
+			"var_type": "int"
+		},
+		{
+			"hint": "PackedScene",
+			"value": null,
+			"var": "Particles",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "OneWay",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Shadow",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": null,
+			"var": "Shadow",
+			"var_type": "Object"
+		},
+		{
+			"hint": "PackedScene",
+			"value": null,
+			"var": "ExtraLayerShadow",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Shader",
+			"value": null,
+			"var": "ExtraShadowShader",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": {
+				"a": 1.0,
+				"b": 0.28600001335144,
+				"g": 0.368999987840652,
+				"r": 0.266999989748001
+			},
+			"var": "ShadowColor",
+			"var_type": "Color"
+		},
+		{
+			"hint": "",
+			"value": {
+				"a": 1.0,
+				"b": 0.230000004172325,
+				"g": 0.337999999523163,
+				"r": 0.372000008821487
+			},
+			"var": "EnemyShadowColor",
+			"var_type": "Color"
+		},
+		{
+			"hint": "",
+			"value": {
+				"a": 1.0,
+				"b": 0.168999999761581,
+				"g": 0.141000002622604,
+				"r": 0.109999999403954
+			},
+			"var": "EncounterShadowColor",
+			"var_type": "Color"
+		},
+		{
+			"hint": "0.0,2.0,0.1",
+			"value": 0.9,
+			"var": "ShadowStrength",
+			"var_type": "float"
+		},
+		{
+			"hint": "0.0,300.0,1.0,or_greater,or_less",
+			"value": 120.0,
+			"var": "ShadowHeight",
+			"var_type": "float"
+		},
+		{
+			"hint": "-1.0,1.0,0.05",
+			"value": 0.0,
+			"var": "ShadowScale",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": {
+				"x": -100.0,
+				"y": 0.0
+			},
+			"var": "ShadowOffset",
+			"var_type": "Vector2"
+		},
+		{
+			"hint": "",
+			"value": {
+				"x": -100.0,
+				"y": 0.0
+			},
+			"var": "ShadowOffsetFlipped",
+			"var_type": "Vector2"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Groups",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "Utility:0,Offense:1,Defense:2,Solo:3",
+			"value": 1,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "Town:0,Production:1,Weapon:2,Structure:3",
+			"value": 3,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "Basic:0,Tinker:1,Magic:2,Ancient:3,Novus:4,Nature:5",
+			"value": 3,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Other",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "HighlightAdjacent",
+			"var_type": "bool"
+		},
+		{
+			"hint": "*.gd",
+			"value": "uid://eukol6td36n4",
+			"var": "CustomScript",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "",
+			"var": "Lore",
+			"var_type": "String"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				-1,
+				-1,
+				-1
+			],
+			"var": "SynergyUnits",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": {
+				"path": "res://units/171_WizardsRelic/unit_171_custom_logic.gd",
+				"type": "GDScript"
+			},
+			"var": "ProcessScript",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": "",
+			"var": "OgInfo",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Base",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": [
+				{
+					"id": 0,
+					"name": "Empty",
+					"path": "res://enchantments/Resources/enchant_000.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 0,
+					"name": "Empty",
+					"path": "res://enchantments/Resources/enchant_000.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 0,
+					"name": "Empty",
+					"path": "res://enchantments/Resources/enchant_000.tres",
+					"type": "Resource"
+				}
+			],
+			"var": "EnchantList",
+			"var_type": "Array"
+		},
+		{
+			"hint": "int",
+			"value": [
+				0,
+				0,
+				0
+			],
+			"var": "EnchantIDs",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": [],
+			"var": "DamageReduct",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "DoubleDamage",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "SpeedScaling",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "ResummonTwice",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "Resummoned",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InitDone",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": 0.0,
+			"var": "Lifesteal",
+			"var_type": "float"
+		},
+		{
+			"hint": "Node2D",
+			"value": [],
+			"var": "Shelter",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Transferon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Node2D",
+			"value": [],
+			"var": "AntiStun",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "FirstDamageInstance",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": {
+				"a": 1.0,
+				"b": 0.299999982118607,
+				"g": 1.5,
+				"r": 0.32399994134903
+			},
+			"var": "HighlightColor",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": {
+				"a": 1.0,
+				"b": 0.270000010728836,
+				"g": 0.340000003576279,
+				"r": 1.0
+			},
+			"var": "TargetColor",
+			"var_type": "Nil"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/unit_stats.gd",
+			"value": null,
+			"var": "unit_stats.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": {
+				"id": 0,
+				"name": "Empty",
+				"path": "res://enchantments/Resources/enchant_000.tres",
+				"type": "Resource"
+			},
+			"var": "Enchant0",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Main",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 172,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Mini-Mergus",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "On trigger: Gain +10 Health.\nPassive: When this unit speeds up, increase this buff by +2.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "2:",
+			"value": [],
+			"var": "Conditional",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Stats",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "1.0,6.0",
+			"value": 1,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 50.0,
+			"var": "Health",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "HasDamage",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": 0.0,
+			"var": "Damage",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "HasSpeed",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": 2.5,
+			"var": "AttackSpeed",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": 1.25,
+			"var": "Min",
+			"var_type": "float"
+		},
+		{
+			"hint": "1.0,6.0",
+			"value": 1,
+			"var": "length_x",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,6.0",
+			"value": 1,
+			"var": "length_y",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Modifiers",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "PermanentDestroy",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Normal:0,Pierce:1,Explosive:2,Stun:3",
+			"value": 0,
+			"var": "DamageType",
+			"var_type": "int"
+		},
+		{
+			"hint": "0.0,100.0",
+			"value": 0.0,
+			"var": "DamageTypeBonus",
+			"var_type": "float"
+		},
+		{
+			"hint": "Normal:0,Friendly Fire:1,Extra Defense Damage:2,Size Scaling:3,Extra Nature Damage:4,Extra Magic Damage:5,Slow Down:6",
+			"value": 0,
+			"var": "SpecialDamageType",
+			"var_type": "int"
+		},
+		{
+			"hint": "Closest:0,Biggest:1,Town:2,Random:3,Healthiest:4,Random Defense:5",
+			"value": 0,
+			"var": "Targeting",
+			"var_type": "int"
+		},
+		{
+			"hint": "Fast:0,Medium:1,Slow:2",
+			"value": 1,
+			"var": "ProjectileSpeed",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": [
+				0.2,
+				0.3,
+				0.6
+			],
+			"var": "ProjectileSpeedValue",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "StartOfCombat",
+			"var_type": "bool"
+		},
+		{
+			"hint": "0.0,5.0,1.0",
+			"value": 0,
+			"var": "StartOrder",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Custom Values",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"HealthBuff",
+				"Amount"
+			],
+			"var": "ValueNames",
+			"var_type": "Array"
+		},
+		{
+			"hint": "3:",
+			"value": [
+				10.0,
+				2.0
+			],
+			"var": "Values",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": {
+				"Amount": 2,
+				"HealthBuff": 10
+			},
+			"var": "CustomValues",
+			"var_type": "Dictionary"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Assets",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://units/172_MiniMergus/unit_172_resource.tres::SpriteFrames_rougj",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": null,
+			"var": "Projectile",
+			"var_type": "Object"
+		},
+		{
+			"hint": "PackedScene",
+			"value": null,
+			"var": "ProjectileTrail",
+			"var_type": "Object"
+		},
+		{
+			"hint": "PackedScene",
+			"value": null,
+			"var": "ExtraLayer",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Shader",
+			"value": null,
+			"var": "ExtraShader",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "Laser",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": {
+				"x": 0.0,
+				"y": 0.0
+			},
+			"var": "ProjectileOffset",
+			"var_type": "Vector2"
+		},
+		{
+			"hint": "24/17:AudioStream",
+			"value": [],
+			"var": "SFX",
+			"var_type": "Array"
+		},
+		{
+			"hint": "24/17:AudioStream",
+			"value": [],
+			"var": "ImpactSFX",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": 2,
+			"var": "SFX_priority",
+			"var_type": "int"
+		},
+		{
+			"hint": "PackedScene",
+			"value": null,
+			"var": "Particles",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "OneWay",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Shadow",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": null,
+			"var": "Shadow",
+			"var_type": "Object"
+		},
+		{
+			"hint": "PackedScene",
+			"value": null,
+			"var": "ExtraLayerShadow",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Shader",
+			"value": null,
+			"var": "ExtraShadowShader",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": {
+				"a": 1.0,
+				"b": 0.28600001335144,
+				"g": 0.368999987840652,
+				"r": 0.266999989748001
+			},
+			"var": "ShadowColor",
+			"var_type": "Color"
+		},
+		{
+			"hint": "",
+			"value": {
+				"a": 1.0,
+				"b": 0.230000004172325,
+				"g": 0.337999999523163,
+				"r": 0.372000008821487
+			},
+			"var": "EnemyShadowColor",
+			"var_type": "Color"
+		},
+		{
+			"hint": "",
+			"value": {
+				"a": 1.0,
+				"b": 0.168999999761581,
+				"g": 0.141000002622604,
+				"r": 0.109999999403954
+			},
+			"var": "EncounterShadowColor",
+			"var_type": "Color"
+		},
+		{
+			"hint": "0.0,2.0,0.1",
+			"value": 0.9,
+			"var": "ShadowStrength",
+			"var_type": "float"
+		},
+		{
+			"hint": "0.0,300.0,1.0,or_greater,or_less",
+			"value": 120.0,
+			"var": "ShadowHeight",
+			"var_type": "float"
+		},
+		{
+			"hint": "-1.0,1.0,0.05",
+			"value": 0.0,
+			"var": "ShadowScale",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": {
+				"x": -100.0,
+				"y": 0.0
+			},
+			"var": "ShadowOffset",
+			"var_type": "Vector2"
+		},
+		{
+			"hint": "",
+			"value": {
+				"x": -100.0,
+				"y": 0.0
+			},
+			"var": "ShadowOffsetFlipped",
+			"var_type": "Vector2"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Groups",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "Utility:0,Offense:1,Defense:2,Solo:3",
+			"value": 2,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "Town:0,Production:1,Weapon:2,Structure:3",
+			"value": 3,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "Basic:0,Tinker:1,Magic:2,Ancient:3,Novus:4,Nature:5",
+			"value": 4,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Other",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "HighlightAdjacent",
+			"var_type": "bool"
+		},
+		{
+			"hint": "*.gd",
+			"value": "uid://be8w46lmoivov",
+			"var": "CustomScript",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "",
+			"var": "Lore",
+			"var_type": "String"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				-1,
+				-1,
+				-1
+			],
+			"var": "SynergyUnits",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": {
+				"path": "res://units/172_MiniMergus/unit_172_custom_logic.gd",
+				"type": "GDScript"
+			},
+			"var": "ProcessScript",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": "",
+			"var": "OgInfo",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Base",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": [
+				{
+					"id": 0,
+					"name": "Empty",
+					"path": "res://enchantments/Resources/enchant_000.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 0,
+					"name": "Empty",
+					"path": "res://enchantments/Resources/enchant_000.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 0,
+					"name": "Empty",
+					"path": "res://enchantments/Resources/enchant_000.tres",
+					"type": "Resource"
+				}
+			],
+			"var": "EnchantList",
+			"var_type": "Array"
+		},
+		{
+			"hint": "int",
+			"value": [
+				0,
+				0,
+				0
+			],
+			"var": "EnchantIDs",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": [],
+			"var": "DamageReduct",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "DoubleDamage",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 0,
+			"var": "SpeedScaling",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "ResummonTwice",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "Resummoned",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InitDone",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": 0.0,
+			"var": "Lifesteal",
+			"var_type": "float"
+		},
+		{
+			"hint": "Node2D",
+			"value": [],
+			"var": "Shelter",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Transferon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Node2D",
+			"value": [],
+			"var": "AntiStun",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "FirstDamageInstance",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": {
+				"a": 1.0,
+				"b": 0.299999982118607,
+				"g": 1.5,
+				"r": 0.32399994134903
+			},
+			"var": "HighlightColor",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": {
+				"a": 1.0,
+				"b": 0.270000010728836,
+				"g": 0.340000003576279,
+				"r": 1.0
+			},
+			"var": "TargetColor",
+			"var_type": "Nil"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/unit_stats.gd",
+			"value": null,
+			"var": "unit_stats.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": {
+				"id": 0,
+				"name": "Empty",
+				"path": "res://enchantments/Resources/enchant_000.tres",
+				"type": "Resource"
+			},
+			"var": "Enchant0",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Main",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 173,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Siphoner",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "When an adjacent Magic gets destroyed, give every friendly unit +10 for each enchant they have. Deal 10 to every enemy unit for each enchant they have.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "2:",
+			"value": [],
+			"var": "Conditional",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Stats",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "1.0,6.0",
+			"value": 3,
+			"var": "Rarity",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": 150.0,
+			"var": "Health",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "HasDamage",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": 0.0,
+			"var": "Damage",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "HasSpeed",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": 0.0,
+			"var": "AttackSpeed",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": 0.0,
+			"var": "Min",
+			"var_type": "float"
+		},
+		{
+			"hint": "1.0,6.0",
+			"value": 2,
+			"var": "length_x",
+			"var_type": "int"
+		},
+		{
+			"hint": "1.0,6.0",
+			"value": 2,
+			"var": "length_y",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Modifiers",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "PermanentDestroy",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Normal:0,Pierce:1,Explosive:2,Stun:3",
+			"value": 0,
+			"var": "DamageType",
+			"var_type": "int"
+		},
+		{
+			"hint": "0.0,100.0",
+			"value": 0.0,
+			"var": "DamageTypeBonus",
+			"var_type": "float"
+		},
+		{
+			"hint": "Normal:0,Friendly Fire:1,Extra Defense Damage:2,Size Scaling:3,Extra Nature Damage:4,Extra Magic Damage:5,Slow Down:6",
+			"value": 0,
+			"var": "SpecialDamageType",
+			"var_type": "int"
+		},
+		{
+			"hint": "Closest:0,Biggest:1,Town:2,Random:3,Healthiest:4,Random Defense:5",
+			"value": 0,
+			"var": "Targeting",
+			"var_type": "int"
+		},
+		{
+			"hint": "Fast:0,Medium:1,Slow:2",
+			"value": 1,
+			"var": "ProjectileSpeed",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": [
+				0.2,
+				0.3,
+				0.6
+			],
+			"var": "ProjectileSpeedValue",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "StartOfCombat",
+			"var_type": "bool"
+		},
+		{
+			"hint": "0.0,5.0,1.0",
+			"value": 0,
+			"var": "StartOrder",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Custom Values",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "4:",
+			"value": [
+				"HealthBuff",
+				"DamageBuff"
+			],
+			"var": "ValueNames",
+			"var_type": "Array"
+		},
+		{
+			"hint": "3:",
+			"value": [
+				10.0,
+				10.0
+			],
+			"var": "Values",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": {
+				"DamageBuff": 10,
+				"HealthBuff": 10
+			},
+			"var": "CustomValues",
+			"var_type": "Dictionary"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Assets",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": {
+				"path": "res://units/173_siphoner/unit_173_resource.tres::SpriteFrames_mdwnc",
+				"type": "SpriteFrames"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": null,
+			"var": "Projectile",
+			"var_type": "Object"
+		},
+		{
+			"hint": "PackedScene",
+			"value": null,
+			"var": "ProjectileTrail",
+			"var_type": "Object"
+		},
+		{
+			"hint": "PackedScene",
+			"value": null,
+			"var": "ExtraLayer",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Shader",
+			"value": null,
+			"var": "ExtraShader",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "Laser",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": {
+				"x": 0.0,
+				"y": 0.0
+			},
+			"var": "ProjectileOffset",
+			"var_type": "Vector2"
+		},
+		{
+			"hint": "24/17:AudioStream",
+			"value": [],
+			"var": "SFX",
+			"var_type": "Array"
+		},
+		{
+			"hint": "24/17:AudioStream",
+			"value": [],
+			"var": "ImpactSFX",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": 2,
+			"var": "SFX_priority",
+			"var_type": "int"
+		},
+		{
+			"hint": "PackedScene",
+			"value": null,
+			"var": "Particles",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": false,
+			"var": "OneWay",
+			"var_type": "bool"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Shadow",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "SpriteFrames",
+			"value": null,
+			"var": "Shadow",
+			"var_type": "Object"
+		},
+		{
+			"hint": "PackedScene",
+			"value": null,
+			"var": "ExtraLayerShadow",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Shader",
+			"value": null,
+			"var": "ExtraShadowShader",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": {
+				"a": 1.0,
+				"b": 0.28600001335144,
+				"g": 0.368999987840652,
+				"r": 0.266999989748001
+			},
+			"var": "ShadowColor",
+			"var_type": "Color"
+		},
+		{
+			"hint": "",
+			"value": {
+				"a": 1.0,
+				"b": 0.230000004172325,
+				"g": 0.337999999523163,
+				"r": 0.372000008821487
+			},
+			"var": "EnemyShadowColor",
+			"var_type": "Color"
+		},
+		{
+			"hint": "",
+			"value": {
+				"a": 1.0,
+				"b": 0.168999999761581,
+				"g": 0.141000002622604,
+				"r": 0.109999999403954
+			},
+			"var": "EncounterShadowColor",
+			"var_type": "Color"
+		},
+		{
+			"hint": "0.0,2.0,0.1",
+			"value": 0.9,
+			"var": "ShadowStrength",
+			"var_type": "float"
+		},
+		{
+			"hint": "0.0,300.0,1.0,or_greater,or_less",
+			"value": 120.0,
+			"var": "ShadowHeight",
+			"var_type": "float"
+		},
+		{
+			"hint": "-1.0,1.0,0.05",
+			"value": 0.0,
+			"var": "ShadowScale",
+			"var_type": "float"
+		},
+		{
+			"hint": "",
+			"value": {
+				"x": -100.0,
+				"y": 0.0
+			},
+			"var": "ShadowOffset",
+			"var_type": "Vector2"
+		},
+		{
+			"hint": "",
+			"value": {
+				"x": -100.0,
+				"y": 0.0
+			},
+			"var": "ShadowOffsetFlipped",
+			"var_type": "Vector2"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Groups",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "Utility:0,Offense:1,Defense:2,Solo:3",
+			"value": 1,
+			"var": "Type",
+			"var_type": "int"
+		},
+		{
+			"hint": "Town:0,Production:1,Weapon:2,Structure:3",
+			"value": 0,
+			"var": "Role",
+			"var_type": "int"
+		},
+		{
+			"hint": "Basic:0,Tinker:1,Magic:2,Ancient:3,Novus:4,Nature:5",
+			"value": 2,
+			"var": "Faction",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": null,
+			"var": "Other",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "HighlightAdjacent",
+			"var_type": "bool"
+		},
+		{
+			"hint": "*.gd",
+			"value": "uid://bbbr31vlntgq0",
+			"var": "CustomScript",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": "",
+			"var": "Lore",
+			"var_type": "String"
+		},
+		{
+			"hint": "2:",
+			"value": [
+				-1,
+				-1,
+				-1
+			],
+			"var": "SynergyUnits",
+			"var_type": "Array"
+		},
+		{
+			"hint": "",
+			"value": {
+				"path": "res://units/173_siphoner/unit_173_custom_logic.gd",
 				"type": "GDScript"
 			},
 			"var": "ProcessScript",
