@@ -5167,7 +5167,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Get a random Enchantment.",
+			"value": "Get 2 of 6 Enchantments.",
 			"var": "Info",
 			"var_type": "String"
 		},

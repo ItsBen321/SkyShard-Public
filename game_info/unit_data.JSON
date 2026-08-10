@@ -704,13 +704,13 @@
 		},
 		{
 			"hint": "",
-			"value": 2.7,
+			"value": 3.0,
 			"var": "AttackSpeed",
 			"var_type": "float"
 		},
 		{
 			"hint": "",
-			"value": 1.35,
+			"value": 1.5,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -25840,7 +25840,7 @@
 		},
 		{
 			"hint": "",
-			"value": 400.0,
+			"value": 500.0,
 			"var": "Health",
 			"var_type": "float"
 		},
@@ -37748,7 +37748,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Give adjacent town units +3 Health for each adjacent town unit this has.",
+			"value": "Give adjacent town units +2 Health for each adjacent town unit this has.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -37802,13 +37802,13 @@
 		},
 		{
 			"hint": "",
-			"value": 3.5,
+			"value": 4.0,
 			"var": "AttackSpeed",
 			"var_type": "float"
 		},
 		{
 			"hint": "",
-			"value": 1.75,
+			"value": 2.0,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -37905,7 +37905,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				3.0
+				2.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -37913,7 +37913,7 @@
 		{
 			"hint": "",
 			"value": {
-				"HealthBuff": 3
+				"HealthBuff": 2
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -51496,7 +51496,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Gain 25% of the Health of all adjacent Defense units (that are not Pillars).",
+			"value": "Start of Combat: Gain 30% of the Health of all adjacent Defense units (that are not Pillars).",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -51653,7 +51653,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				25.0
+				30.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -51661,7 +51661,7 @@
 		{
 			"hint": "",
 			"value": {
-				"HealthBuff": 25
+				"HealthBuff": 30
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -52132,7 +52132,7 @@
 		},
 		{
 			"hint": "",
-			"value": 20.0,
+			"value": 25.0,
 			"var": "Damage",
 			"var_type": "float"
 		},
@@ -52226,7 +52226,7 @@
 		},
 		{
 			"hint": "0.0,5.0,1.0",
-			"value": 2,
+			"value": 3,
 			"var": "StartOrder",
 			"var_type": "int"
 		},
@@ -57499,13 +57499,13 @@
 		},
 		{
 			"hint": "",
-			"value": 3.0,
+			"value": 2.5,
 			"var": "AttackSpeed",
 			"var_type": "float"
 		},
 		{
 			"hint": "",
-			"value": 1.5,
+			"value": 1.25,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -64615,7 +64615,7 @@
 		},
 		{
 			"hint": "",
-			"value": 120.0,
+			"value": 100.0,
 			"var": "Health",
 			"var_type": "float"
 		},
@@ -69346,7 +69346,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -69946,7 +69946,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -71122,7 +71122,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -72294,13 +72294,13 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: If you have any Mana left over, refine it into Solid Mana.",
+			"value": "Start of Combat: If you have any Mana left over, refine it into Solid Mana. Gain +150 Health for each one.",
 			"var": "Info",
 			"var_type": "String"
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -72442,20 +72442,24 @@
 		},
 		{
 			"hint": "4:",
-			"value": [],
+			"value": [
+				"HealthBuff"
+			],
 			"var": "ValueNames",
 			"var_type": "Array"
 		},
 		{
 			"hint": "3:",
-			"value": [],
+			"value": [
+				150.0
+			],
 			"var": "Values",
 			"var_type": "Array"
 		},
 		{
 			"hint": "",
 			"value": {
-
+				"HealthBuff": 150
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -72887,7 +72891,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -73468,7 +73472,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -74065,7 +74069,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -74656,7 +74660,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -75250,7 +75254,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -75286,7 +75290,7 @@
 		},
 		{
 			"hint": "",
-			"value": 40.0,
+			"value": 50.0,
 			"var": "Damage",
 			"var_type": "float"
 		},
@@ -75852,7 +75856,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -76443,7 +76447,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -77027,7 +77031,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -77615,7 +77619,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -78205,7 +78209,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -78791,7 +78795,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -79396,7 +79400,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -79987,7 +79991,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -80574,7 +80578,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -81168,7 +81172,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -81761,7 +81765,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -82352,7 +82356,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -82966,7 +82970,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -83557,7 +83561,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -84145,7 +84149,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -84736,7 +84740,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -85324,7 +85328,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -85908,7 +85912,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -86500,7 +86504,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -87090,13 +87094,13 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: Adjacent Powerlines can now target adjacent units 1 tile further.\r\n(only shows up when you have a Powerline)",
+			"value": "Start of Combat: Adjacent Powerlines can now target adjacent units 1 tile further.\n(only shows up when you have a Powerline)",
 			"var": "Info",
 			"var_type": "String"
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -87682,7 +87686,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -88272,7 +88276,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -88862,7 +88866,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -88912,13 +88916,13 @@
 		},
 		{
 			"hint": "",
-			"value": 3.5,
+			"value": 3.0,
 			"var": "AttackSpeed",
 			"var_type": "float"
 		},
 		{
 			"hint": "",
-			"value": 1.75,
+			"value": 1.5,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -89442,13 +89446,13 @@
 		},
 		{
 			"hint": "",
-			"value": "Passive: When an adjacent Prismatic Mirror or Prismatic Shard takes Damage, shoot 10% of the Damage back.\r\n(only shows up when you have a Prismatic Mirror)",
+			"value": "Passive: When an adjacent Prismatic Mirror or Prismatic Shard takes Damage, shoot 10% of the Damage back.\n(only shows up when you have a Prismatic Mirror)",
 			"var": "Info",
 			"var_type": "String"
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -90035,13 +90039,13 @@
 		},
 		{
 			"hint": "",
-			"value": "Start of Combat: All Dynamos directly beneath this unit give a +2 Damage Buff.\r\n(only shows up when you have a Dynamo)",
+			"value": "Start of Combat: All Dynamos directly beneath this unit give a +1 Damage Buff.\n(only shows up when you have a Dynamo)",
 			"var": "Info",
 			"var_type": "String"
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -90194,7 +90198,7 @@
 		{
 			"hint": "3:",
 			"value": [
-				2.0
+				1.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -90202,7 +90206,7 @@
 		{
 			"hint": "",
 			"value": {
-				"DamageBuff": 2
+				"DamageBuff": 1
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -90631,7 +90635,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -91230,7 +91234,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -91362,7 +91366,7 @@
 		},
 		{
 			"hint": "0.0,5.0,1.0",
-			"value": 0,
+			"value": 2,
 			"var": "StartOrder",
 			"var_type": "int"
 		},
@@ -91820,7 +91824,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -92411,7 +92415,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -95362,7 +95366,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -95953,7 +95957,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -96544,7 +96548,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -97135,7 +97139,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -97726,7 +97730,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -97774,13 +97778,13 @@
 		},
 		{
 			"hint": "",
-			"value": 2.5,
+			"value": 2.3,
 			"var": "AttackSpeed",
 			"var_type": "float"
 		},
 		{
 			"hint": "",
-			"value": 1.25,
+			"value": 1.15,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -98320,7 +98324,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -98911,7 +98915,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -99502,7 +99506,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -100102,7 +100106,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -100689,7 +100693,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -101280,7 +101284,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -101874,7 +101878,7 @@
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -101910,7 +101914,7 @@
 		},
 		{
 			"hint": "",
-			"value": 1000.0,
+			"value": 0.0,
 			"var": "Damage",
 			"var_type": "float"
 		},
@@ -102459,13 +102463,13 @@
 		},
 		{
 			"hint": "",
-			"value": "On trigger: Gain +10 Health.\nPassive: When this unit speeds up, increase this buff by +2.",
+			"value": "On trigger: Gain +10 Health.\nPassive: When this unit speeds up, increase this buff by +1.",
 			"var": "Info",
 			"var_type": "String"
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -102618,7 +102622,7 @@
 			"hint": "3:",
 			"value": [
 				10.0,
-				2.0
+				1.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -102626,7 +102630,7 @@
 		{
 			"hint": "",
 			"value": {
-				"Amount": 2,
+				"Amount": 1,
 				"HealthBuff": 10
 			},
 			"var": "CustomValues",
@@ -103050,13 +103054,13 @@
 		},
 		{
 			"hint": "",
-			"value": "When an adjacent Magic gets destroyed, give every friendly unit +10 for each enchant they have. Deal 10 to every enemy unit for each enchant they have.",
+			"value": "When an adjacent Magic gets destroyed, give every friendly unit +8 for each enchant they have. Deal 8 to every enemy unit for each enchant they have.",
 			"var": "Info",
 			"var_type": "String"
 		},
 		{
 			"hint": "",
-			"value": true,
+			"value": false,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -103208,8 +103212,8 @@
 		{
 			"hint": "3:",
 			"value": [
-				10.0,
-				10.0
+				8.0,
+				8.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -103217,8 +103221,8 @@
 		{
 			"hint": "",
 			"value": {
-				"DamageBuff": 10,
-				"HealthBuff": 10
+				"DamageBuff": 8,
+				"HealthBuff": 8
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"

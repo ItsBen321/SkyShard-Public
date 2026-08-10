@@ -380,7 +380,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Start the first 3 rounds with 1 more Mana.",
+			"value": "Start the first 3 rounds with 2 more Mana.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -452,7 +452,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When you spend 20 and 50 Mana, get a Mana Machina.",
+			"value": "When you spend 15 and 40 Mana, get a Mana Machina.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -497,7 +497,7 @@
 		{
 			"hint": "2:",
 			"value": [
-				50
+				40
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -676,7 +676,7 @@
 		},
 		{
 			"hint": "",
-			"value": "Once you have 10 units on your island, get a Replicator.",
+			"value": "Once you have 8 units on your island, get a Replicator.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -721,7 +721,7 @@
 		{
 			"hint": "2:",
 			"value": [
-				10
+				8
 			],
 			"var": "Values",
 			"var_type": "Array"
