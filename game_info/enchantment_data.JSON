@@ -833,7 +833,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -898,7 +898,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -963,7 +963,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -1028,7 +1028,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -1093,7 +1093,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -1158,7 +1158,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -1223,7 +1223,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -1288,7 +1288,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -1353,7 +1353,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -1418,7 +1418,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},

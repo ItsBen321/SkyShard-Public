@@ -704,13 +704,13 @@
 		},
 		{
 			"hint": "",
-			"value": 3.0,
+			"value": 3.5,
 			"var": "AttackSpeed",
 			"var_type": "float"
 		},
 		{
 			"hint": "",
-			"value": 1.5,
+			"value": 1.75,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -11439,7 +11439,7 @@
 		},
 		{
 			"hint": "",
-			"value": "When a friendly Tinker unit triggers, charge this +1. After every 20 charges, trigger 5 random friendly Tinker units.",
+			"value": "When a friendly Tinker unit triggers, charge this +1. After every 20 charges, trigger 6 random friendly Tinker units.",
 			"var": "Info",
 			"var_type": "String"
 		},
@@ -11469,7 +11469,7 @@
 		},
 		{
 			"hint": "",
-			"value": 500.0,
+			"value": 550.0,
 			"var": "Health",
 			"var_type": "float"
 		},
@@ -11598,7 +11598,7 @@
 			"hint": "3:",
 			"value": [
 				20.0,
-				5.0
+				6.0
 			],
 			"var": "Values",
 			"var_type": "Array"
@@ -11607,7 +11607,7 @@
 			"hint": "",
 			"value": {
 				"Amount": 20,
-				"Trigger": 5
+				"Trigger": 6
 			},
 			"var": "CustomValues",
 			"var_type": "Dictionary"
@@ -69346,7 +69346,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -69946,7 +69946,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -70534,7 +70534,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -71122,7 +71122,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -72300,7 +72300,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -72891,7 +72891,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -73472,7 +73472,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -74069,7 +74069,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -74660,7 +74660,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -74708,13 +74708,13 @@
 		},
 		{
 			"hint": "",
-			"value": 2.5,
+			"value": 2.8,
 			"var": "AttackSpeed",
 			"var_type": "float"
 		},
 		{
 			"hint": "",
-			"value": 1.25,
+			"value": 1.4,
 			"var": "Min",
 			"var_type": "float"
 		},
@@ -75254,7 +75254,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -75856,7 +75856,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -76447,7 +76447,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -77031,7 +77031,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -77619,7 +77619,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -77645,7 +77645,7 @@
 		},
 		{
 			"hint": "",
-			"value": 100.0,
+			"value": 70.0,
 			"var": "Health",
 			"var_type": "float"
 		},
@@ -78209,7 +78209,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -78795,7 +78795,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -79062,13 +79062,19 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/132_Magnitudon/unit_132_resource.tres::SpriteFrames_s26ma",
+				"type": "SpriteFrames"
+			},
 			"var": "Shadow",
 			"var_type": "Nil"
 		},
 		{
 			"hint": "SpriteFrames",
-			"value": null,
+			"value": {
+				"path": "res://units/132_Magnitudon/unit_132_resource.tres::SpriteFrames_s26ma",
+				"type": "SpriteFrames"
+			},
 			"var": "Shadow",
 			"var_type": "Object"
 		},
@@ -79138,8 +79144,8 @@
 		{
 			"hint": "",
 			"value": {
-				"x": -100.0,
-				"y": 0.0
+				"x": -250.0,
+				"y": -275.0
 			},
 			"var": "ShadowOffset",
 			"var_type": "Vector2"
@@ -79147,8 +79153,8 @@
 		{
 			"hint": "",
 			"value": {
-				"x": -100.0,
-				"y": 0.0
+				"x": -10.0,
+				"y": -10.0
 			},
 			"var": "ShadowOffsetFlipped",
 			"var_type": "Vector2"
@@ -79400,7 +79406,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -79991,7 +79997,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -80578,7 +80584,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -81172,7 +81178,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -81427,13 +81433,19 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/136_SpiritFisher/unit_136_resource.tres::SpriteFrames_4aq3d",
+				"type": "SpriteFrames"
+			},
 			"var": "Shadow",
 			"var_type": "Nil"
 		},
 		{
 			"hint": "SpriteFrames",
-			"value": null,
+			"value": {
+				"path": "res://units/136_SpiritFisher/unit_136_resource.tres::SpriteFrames_4aq3d",
+				"type": "SpriteFrames"
+			},
 			"var": "Shadow",
 			"var_type": "Object"
 		},
@@ -81503,8 +81515,8 @@
 		{
 			"hint": "",
 			"value": {
-				"x": -100.0,
-				"y": 0.0
+				"x": -45.0,
+				"y": -25.0
 			},
 			"var": "ShadowOffset",
 			"var_type": "Vector2"
@@ -81765,7 +81777,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -82356,7 +82368,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -82970,7 +82982,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -83561,7 +83573,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -84149,7 +84161,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -84740,7 +84752,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -85328,7 +85340,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -85912,7 +85924,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -86504,7 +86516,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -87100,7 +87112,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -87686,7 +87698,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -87861,7 +87873,7 @@
 		{
 			"hint": "SpriteFrames",
 			"value": {
-				"path": "res://units/147_Holomancer/unit_147_resource.tres::SpriteFrames_wd66h",
+				"path": "res://units/147_Horolomancer/unit_147_resource.tres::SpriteFrames_wd66h",
 				"type": "SpriteFrames"
 			},
 			"var": "Sprite",
@@ -87938,13 +87950,19 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/147_Horolomancer/unit_147_resource.tres::SpriteFrames_i8wwt",
+				"type": "SpriteFrames"
+			},
 			"var": "Shadow",
 			"var_type": "Nil"
 		},
 		{
 			"hint": "SpriteFrames",
-			"value": null,
+			"value": {
+				"path": "res://units/147_Horolomancer/unit_147_resource.tres::SpriteFrames_i8wwt",
+				"type": "SpriteFrames"
+			},
 			"var": "Shadow",
 			"var_type": "Object"
 		},
@@ -88014,8 +88032,8 @@
 		{
 			"hint": "",
 			"value": {
-				"x": -100.0,
-				"y": 0.0
+				"x": -85.0,
+				"y": -25.0
 			},
 			"var": "ShadowOffset",
 			"var_type": "Vector2"
@@ -88090,7 +88108,7 @@
 		{
 			"hint": "",
 			"value": {
-				"path": "res://units/147_Holomancer/unit_147_custom_logic.gd",
+				"path": "res://units/147_Horolomancer/unit_147_custom_logic.gd",
 				"type": "GDScript"
 			},
 			"var": "ProcessScript",
@@ -88276,7 +88294,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -88866,7 +88884,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -89452,7 +89470,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -90045,7 +90063,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -90635,7 +90653,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -91234,7 +91252,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -91824,7 +91842,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -92077,13 +92095,19 @@
 		},
 		{
 			"hint": "",
-			"value": null,
+			"value": {
+				"path": "res://units/154_Pyromancer/unit_154_pyromancer.tres::SpriteFrames_o6ex5",
+				"type": "SpriteFrames"
+			},
 			"var": "Shadow",
 			"var_type": "Nil"
 		},
 		{
 			"hint": "SpriteFrames",
-			"value": null,
+			"value": {
+				"path": "res://units/154_Pyromancer/unit_154_pyromancer.tres::SpriteFrames_o6ex5",
+				"type": "SpriteFrames"
+			},
 			"var": "Shadow",
 			"var_type": "Object"
 		},
@@ -92153,8 +92177,8 @@
 		{
 			"hint": "",
 			"value": {
-				"x": -100.0,
-				"y": 0.0
+				"x": -55.0,
+				"y": -5.0
 			},
 			"var": "ShadowOffset",
 			"var_type": "Vector2"
@@ -92415,7 +92439,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -95366,7 +95390,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -95957,7 +95981,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -96548,7 +96572,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -97139,7 +97163,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -97730,7 +97754,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -98324,7 +98348,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -98915,7 +98939,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -99506,7 +99530,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -100106,7 +100130,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -100693,7 +100717,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -101284,7 +101308,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -101878,7 +101902,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -102469,7 +102493,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
@@ -103060,7 +103084,7 @@
 		},
 		{
 			"hint": "",
-			"value": false,
+			"value": true,
 			"var": "InShop",
 			"var_type": "bool"
 		},
