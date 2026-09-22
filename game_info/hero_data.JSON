@@ -162,6 +162,12 @@
 					"name": "Nature's Aid",
 					"path": "res://encounters/Resources/encounter_040.tres",
 					"type": "Resource"
+				},
+				{
+					"id": 66,
+					"name": "Nature",
+					"path": "res://encounters/Resources/encounter_066.tres",
+					"type": "Resource"
 				}
 			],
 			"var": "BoostedEncounters",
@@ -318,6 +324,24 @@
 					"id": 36,
 					"name": "Novus",
 					"path": "res://encounters/Resources/encounter_036.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 58,
+					"name": "Random Novus",
+					"path": "res://encounters/Resources/encounter_058.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 63,
+					"name": "Novus",
+					"path": "res://encounters/Resources/encounter_063.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 65,
+					"name": "Novus",
+					"path": "res://encounters/Resources/encounter_065.tres",
 					"type": "Resource"
 				}
 			],
@@ -481,6 +505,181 @@
 					"id": 39,
 					"name": "Housing",
 					"path": "res://encounters/Resources/encounter_039.tres",
+					"type": "Resource"
+				}
+			],
+			"var": "BoostedEncounters",
+			"var_type": "Array"
+		}
+	],
+	[
+		{
+			"hint": "res://components/resources/hero_data.gd",
+			"value": null,
+			"var": "hero_data.gd",
+			"var_type": "Nil"
+		},
+		{
+			"hint": "",
+			"value": 3,
+			"var": "ID",
+			"var_type": "int"
+		},
+		{
+			"hint": "",
+			"value": "Polypus",
+			"var": "Name",
+			"var_type": "String"
+		},
+		{
+			"hint": "",
+			"value": true,
+			"var": "InShop",
+			"var_type": "bool"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Polypus/polypus_3.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Sprite",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Polypus/polypus_2.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "SpriteNoBG",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Polypus/polypus cursor 1.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "MouseCursor",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Polypus/polypus cursor 2.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "MouseCursorClick",
+			"var_type": "Object"
+		},
+		{
+			"hint": "Texture",
+			"value": {
+				"path": "res://heroes/sprites/Polypus/Icon Polypus.png",
+				"type": "CompressedTexture2D"
+			},
+			"var": "Icon",
+			"var_type": "Object"
+		},
+		{
+			"hint": "PackedScene",
+			"value": {
+				"path": "res://heroes/islands/003_Polypus/polypus_island.tscn",
+				"type": "PackedScene"
+			},
+			"var": "Island",
+			"var_type": "Object"
+		},
+		{
+			"hint": "PackedScene",
+			"value": {
+				"path": "res://UI/scenes/polypus-quest-ui.tscn",
+				"type": "PackedScene"
+			},
+			"var": "QuestMenu",
+			"var_type": "Object"
+		},
+		{
+			"hint": "",
+			"value": "Polypus needed power to protect the innocent. He found it down the dark path of Ancient magic, and lost a part of himself.",
+			"var": "Info",
+			"var_type": "String"
+		},
+		{
+			"hint": "24/17:Quest",
+			"value": [
+				{
+					"id": 16,
+					"name": "Mourning",
+					"path": "res://heroes/quests/003_Polypus/016_Polypus_Quest.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 17,
+					"name": "Fatigued",
+					"path": "res://heroes/quests/003_Polypus/017_Polypus_Quest.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 18,
+					"name": "Sacrificial Pact",
+					"path": "res://heroes/quests/003_Polypus/018_Polypus_Quest.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 19,
+					"name": "Rebound",
+					"path": "res://heroes/quests/003_Polypus/019_Polypus_Quest.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 20,
+					"name": "Keep on Digging",
+					"path": "res://heroes/quests/003_Polypus/020_Polypus_Quest.tres",
+					"type": "Resource"
+				}
+			],
+			"var": "Quests",
+			"var_type": "Array"
+		},
+		{
+			"hint": "24/17:Encounter",
+			"value": [
+				{
+					"id": 14,
+					"name": "Random Ancient",
+					"path": "res://encounters/Resources/encounter_014.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 25,
+					"name": "Ancients",
+					"path": "res://encounters/Resources/encounter_025.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 37,
+					"name": "Ancients",
+					"path": "res://encounters/Resources/encounter_037.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 60,
+					"name": "Random Ancient",
+					"path": "res://encounters/Resources/encounter_060.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 62,
+					"name": "Ancient",
+					"path": "res://encounters/Resources/encounter_062.tres",
+					"type": "Resource"
+				},
+				{
+					"id": 64,
+					"name": "Ancient",
+					"path": "res://encounters/Resources/encounter_064.tres",
 					"type": "Resource"
 				}
 			],
